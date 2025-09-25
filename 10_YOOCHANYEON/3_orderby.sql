@@ -37,6 +37,6 @@ SELECT
 	FROM tbl_category
 -- ORDER BY ref_category_code;
 -- ORDER BY ref_category_code DESC;
-ORDER BY -ref_category_code;
+ORDER BY -ref_category_code DESC;
 
 
