@@ -1,3 +1,5 @@
+CREATE USER 'swcamp'@'%' IDENTIFIED BY 'swcamp';
+
 CREATE DATABASE menudb;
 
 SHOW GRANTS FOR 'swcamp'@'%';
