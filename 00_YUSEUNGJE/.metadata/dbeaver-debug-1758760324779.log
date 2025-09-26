@@ -1,0 +1,530 @@
+2025-09-24 08:37:56.105 - DBeaver 25.2.1.202509211659 is starting
+2025-09-24 08:37:56.105 - OS: Windows 11 10.0 (amd64)
+2025-09-24 08:37:56.105 - Java version: 21.0.8 by Eclipse Adoptium (64bit)
+2025-09-24 08:37:56.106 - Install path: 'C:\Program Files\DBeaver'
+2025-09-24 08:37:56.106 - Instance path: 'file:/C:/dev/02_database/00_YUSEUNGJE/'
+2025-09-24 08:37:56.107 - Memory available 64Mb/1024Mb
+2025-09-24 08:37:56.112 - Create display
+2025-09-24 08:37:56.207 - Initialize desktop platform...
+2025-09-24 08:37:56.317 - BounceCastle bundle found. Use JCE provider BC
+> Start Core File Systems [org.eclipse.core.filesystem 1.11.200.v20250513-1234]
+> Start Core Resource Management [org.eclipse.core.resources 3.22.200.v20250513-1234]
+> Start 팀 지원 핵심 [org.eclipse.team.core 3.10.700.v20250313-0656]
+> Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.163.202509211659]
+2025-09-24 08:37:56.450 - Initialize base platform...
+2025-09-24 08:37:56.468 - send collected statistics
+2025-09-24 08:37:56.475 - Platform initialized (268ms)
+2025-09-24 08:37:56.573 - Starting instance server at http://localhost:60578
+2025-09-24 08:37:56.579 - Run workbench
+> Start Eclipse e4 작업영역 SWT [org.eclipse.e4.ui.workbench.swt 0.17.800.v20250422-1254]
+> Start Eclipse Application Services [org.eclipse.e4.core.services 2.5.200.v20250326-1945]
+> Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.6.500.v20250123-0754]
+> Start Eclipse e4 Progress View [org.eclipse.e4.ui.progress 0.4.800.v20250422-1254]
+> Start Eclipse Bindings Support [org.eclipse.e4.ui.bindings 0.14.600.v20250331-1050]
+> Start Eclipse e4 core commands [org.eclipse.e4.core.commands 1.1.600.v20250307-1331]
+> Start EMF XML/XMI Persistence [org.eclipse.emf.ecore.xmi 2.39.0.v20250414-1351]
+> Start Eclipse CSS SWT Theme Support [org.eclipse.e4.ui.css.swt.theme 0.14.500.v20250213-1508]
+> Start Eclipse e4 작업영역 기능 추가 [org.eclipse.e4.ui.workbench.addons.swt 1.5.700.v20250422-1254]
+Warning: NLS unused message: WorkbenchPreference_reuseEditorsThreshold in: org.eclipse.ui.internal.messages
+Warning: NLS unused message: 이유 in: org.eclipse.ui.internal.messages
+> Start Eclipse e4 작업영역 SWT 렌더러 [org.eclipse.e4.ui.workbench.renderers.swt 0.16.800.v20250519-1609]
+> Start Eclipse Dependency Injection Extensions [org.eclipse.e4.core.di.extensions 0.18.300.v20240413-1529]
+> Start DBeaver AI Model [org.jkiss.dbeaver.model.ai 2.0.6.202509211659]
+> Start DBeaver AI UI [org.jkiss.dbeaver.ui.ai 1.0.65.202509211659]
+> Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.15.600.v20250409-1135]
+2025-09-24 08:37:57.744 - Configure workbench window
+> Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.153.202509211659]
+2025-09-24 08:37:57.927 - Total database drivers: 128 (128)
+> Start 도움말 시스템 코어 [org.eclipse.help 3.10.500.v20250423-1201]
+2025-09-24 08:37:57.969 - Create actions
+2025-09-24 08:37:57.976 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
+2025-09-24 08:37:57.977 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
+2025-09-24 08:37:57.977 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
+2025-09-24 08:37:57.977 - Create workbench actions
+2025-09-24 08:37:58.365 - Initialize workbench window
+2025-09-24 08:37:58.370 - Finish initialization
+> Start 기본 문서 편집기 [org.eclipse.ui.editors 3.20.0.v20250514-1719]
+> Start 텍스트 편집기 프레임워크 [org.eclipse.ui.workbench.texteditor 3.19.200.v20250514-1719]
+> Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.163.202509211659]
+> Start Equinox Java Authentication and Authorization Service (JAAS) [org.eclipse.equinox.security 1.4.600.v20250521-0413]
+> Start 인터넷 연결 관리 사용자 인터페이스 [org.eclipse.ui.net 1.5.400.v20240413-1529]
+> Start Internet Connection Management [org.eclipse.core.net 1.5.700.v20250313-0656]
+> Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.163.202509211659]
+> Start DBeaver Sample Database [org.jkiss.dbeaver.ui.config.sample 1.0.200.202509211659]
+2025-09-24 08:37:59.415 - Open [https://dbeaver.io/product/version.xml]
+> Start DBeaver Dashboard UI [org.jkiss.dbeaver.ui.dashboard 1.0.160.202509211659]
+> Start GEF Classic Draw2d [org.eclipse.draw2d 3.20.0.202505280821]
+> Start GEF Classic GEF (MVC) [org.eclipse.gef 3.22.0.202505280821]
+> Start DBeaver ERD UI [org.jkiss.dbeaver.ui.editors.erd 3.1.4.202509211659]
+> Start DBeaver ERD Model [org.jkiss.dbeaver.model.erd 1.1.4.202509211659]
+> Start Data Transfer UI [org.jkiss.dbeaver.data.transfer.ui 1.0.147.202509211659]
+> Start DBeaver MySQL UI Support [org.jkiss.dbeaver.ext.mysql.ui 1.0.155.202509211659]
+> Start DBeaver JDBC Model [org.jkiss.dbeaver.model.jdbc 1.0.56.202509211659]
+> Start DBeaver MySQL Support [org.jkiss.dbeaver.ext.mysql 2.1.248.202509211659]
+2025-09-24 08:38:15.723 - Service 'org.jkiss.dbeaver.ui.UIServiceConnectionEditor' not found
+2025-09-24 08:38:15.750 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
+> Start DBeaver Data Transfer [org.jkiss.dbeaver.data.transfer 2.0.147.202509211659]
+2025-09-24 08:38:26.337 - Service 'org.jkiss.dbeaver.ui.UIServiceConnectionEditor' not found
+2025-09-24 08:38:26.371 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
+2025-09-24 08:38:36.958 - Connect with 'localhost 2' (mariaDB-19978f15696-75eefc892bd78a27)
+2025-09-24 08:38:36.981 - Execution context opened (localhost 2; Main; 0)
+> Start DBeaver GIS Support [org.jkiss.dbeaver.data.gis 1.0.187.202509211659]
+2025-09-24 08:38:37.057 - Execution context opened (localhost 2; Metadata; 1)
+2025-09-24 08:38:37.096 - Connected (mariaDB-19978f15696-75eefc892bd78a27, MariaDB Connector/J [3.5.2])
+Warning: NLS unused message: FindReplace_RegExCheckbox_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_WrapCheckBox_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_IncrementalCheckBox_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_Options in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_ReplaceSelectionButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_SelectedRangeRadioButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_SelectAllButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_GlobalRadioButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_WholeWordCheckBox_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_ReplaceFindButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_BackwardRadioButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_CloseButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_Replace_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_CaseCheckBox_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_Status_replacements_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_title in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_Direction in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_ReplaceAllButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_Scope in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_Find_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_ForwardRadioButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_FindNextButton_label in: org.eclipse.ui.texteditor.EditorMessages
+> Start DBeaver SQL Terminal [org.jkiss.dbeaver.ui.editors.sql.terminal 1.0.139.202509211659]
+> Start 핵심 비교 지원 [org.eclipse.compare.core 3.8.700.v20250120-0641]
+> Start 콘솔 [org.eclipse.ui.console 3.14.300.v20250509-1251]
+> Start 디버그 핵심 [org.eclipse.debug.core 3.23.0.v20250509-1924]
+2025-09-24 08:38:45.239 - Execution context opened (localhost 2; SQLEditor <Script.sql>; 2)
+> Start DBeaver Tasks - Native Tools UI [org.jkiss.dbeaver.tasks.native.ui 1.0.141.202509211659]
+> Start DBeaver Tasks - General UI [org.jkiss.dbeaver.tasks.ui 1.0.141.202509211659]
+> Start DBeaver SQL Language Semantic Model [org.jkiss.dbeaver.model.lsm 1.0.58.202509211659]
+2025-09-24 08:40:20.003 - Duplicate object name 'GEOMETRY' in cache JDBCBasicDataTypeCache. Last value: `GEOMETRY`
+2025-09-24 08:40:20.003 - Duplicate object name 'POINT' in cache JDBCBasicDataTypeCache. Last value: `POINT`
+2025-09-24 08:40:20.003 - Duplicate object name 'LINESTRING' in cache JDBCBasicDataTypeCache. Last value: LINESTRING
+2025-09-24 08:40:20.003 - Duplicate object name 'POLYGON' in cache JDBCBasicDataTypeCache. Last value: POLYGON
+2025-09-24 08:40:20.003 - Duplicate object name 'MULTIPOINT' in cache JDBCBasicDataTypeCache. Last value: MULTIPOINT
+2025-09-24 08:40:20.003 - Duplicate object name 'MULTILINESTRING' in cache JDBCBasicDataTypeCache. Last value: MULTILINESTRING
+2025-09-24 08:40:20.003 - Duplicate object name 'MULTIPOLYGON' in cache JDBCBasicDataTypeCache. Last value: MULTIPOLYGON
+2025-09-24 08:40:20.003 - Duplicate object name 'GEOMETRYCOLLECTION' in cache JDBCBasicDataTypeCache. Last value: GEOMETRYCOLLECTION
+2025-09-24 08:40:31.419 - Service 'org.jkiss.dbeaver.ui.UIServiceConnectionEditor' not found
+2025-09-24 08:40:31.452 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
+2025-09-24 08:40:51.982 - Service 'org.jkiss.dbeaver.ui.UIServiceConnectionEditor' not found
+2025-09-24 08:40:51.996 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
+2025-09-24 08:41:31.811 - Execution context closed (root, 2)
+2025-09-24 08:41:37.340 - Connect with 'ott_platform' (mariaDB-19978f33f32-66686ec69c9e32ad)
+2025-09-24 08:41:37.340 - Execution context opened (ott_platform; Main; 3)
+2025-09-24 08:41:37.343 - Execution context opened (ott_platform; Metadata; 4)
+2025-09-24 08:41:37.364 - Connected (mariaDB-19978f33f32-66686ec69c9e32ad, MariaDB Connector/J [3.5.2])
+2025-09-24 08:41:37.371 - Execution context opened (ott_platform; SQLEditor <Script-1.sql>; 5)
+2025-09-24 08:44:45.921 - Execution context closed (ott_platform, 5)
+2025-09-24 09:07:58.026 - Open external file(s) [[C:\dev\02_database\00_YUSEUNGJE\3_orderby.sql]]
+2025-09-24 09:12:15.283 - No active connection
+2025-09-24 09:12:25.644 - No active connection
+2025-09-24 09:12:31.729 - Connect with 'swcamp' (mariaDB-1997570d0c9-1dd22d8b845caac7)
+2025-09-24 09:12:31.730 - Execution context opened (swcamp; Main; 6)
+2025-09-24 09:12:31.737 - Execution context opened (swcamp; Metadata; 7)
+2025-09-24 09:12:31.759 - Connected (mariaDB-1997570d0c9-1dd22d8b845caac7, MariaDB Connector/J [3.5.2])
+2025-09-24 09:12:35.821 - Execution context closed (root, 0)
+2025-09-24 09:12:35.831 - Execution context closed (root, 1)
+2025-09-24 09:12:35.831 - Disconnected (mariaDB-19978f15696-75eefc892bd78a27)
+2025-09-24 09:12:37.726 - Execution context closed (ott_platform, 3)
+2025-09-24 09:12:37.737 - Execution context closed (ott_platform, 4)
+2025-09-24 09:12:37.737 - Disconnected (mariaDB-19978f33f32-66686ec69c9e32ad)
+2025-09-24 09:12:58.215 - No active connection
+2025-09-24 09:13:02.726 - Transaction log is not available.
+Connect to a database.
+2025-09-24 09:13:06.169 - Execution context opened (swcamp; SQLEditor <3_orderby.sql>; 8)
+[ WARN] (DBeaver: Read data [SELECT FIELD('D', 'A', 'B', 'C'); --]) Error: 1064-42000: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 0, 200' at line 2
+2025-09-24 09:26:01.876 - SQL Error [1064] [42000]: (conn=74) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 0, 200' at line 2
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1064] [42000]: (conn=74) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 0, 200' at line 2
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:134)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:675)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:568)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleElement(SQLQueryJob.java:587)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:449)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:1061)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4568)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5155)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: (conn=74) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 0, 200' at line 2
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:289)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:187)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1347)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1286)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1205)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1129)
+	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:1003)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:1132)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:471)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:328)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:132)
+	... 13 more
+2025-09-24 09:45:56.834 - Execution context closed (swcamp, 8)
+2025-09-24 09:46:07.218 - Execution context opened (swcamp; SQLEditor <Script-2.sql>; 9)
+2025-09-24 09:47:52.334 - Delete empty SQL script '\General\Scripts\Script-2.sql'
+2025-09-24 09:47:52.344 - Execution context closed (swcamp, 9)
+2025-09-24 09:47:57.180 - Open external file(s) [[C:\dev\02_database\00_YUSEUNGJE\4_where.sql]]
+2025-09-24 10:10:38.419 - No active connection
+2025-09-24 10:11:01.858 - Execution context opened (swcamp; SQLEditor <4_where.sql>; 10)
+[ WARN] (DBeaver: Read data [-- 5. in 연산자
+SELECT]) Error: 1064-42000: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2
+2025-09-24 11:37:44.849 - SQL Error [1064] [42000]: (conn=78) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1064] [42000]: (conn=78) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:134)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:675)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:568)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleElement(SQLQueryJob.java:587)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:449)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:1061)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4568)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5155)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: (conn=78) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:289)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:187)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1347)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1286)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1205)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1129)
+	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:1003)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:1132)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:471)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:328)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:132)
+	... 13 more
+2025-09-24 11:46:03.266 - Connect with 'ott_platform' (mariaDB-19978f33f32-66686ec69c9e32ad)
+2025-09-24 11:46:03.266 - Execution context opened (ott_platform; Main; 11)
+2025-09-24 11:46:03.272 - Execution context opened (ott_platform; Metadata; 12)
+2025-09-24 11:46:03.297 - Connected (mariaDB-19978f33f32-66686ec69c9e32ad, MariaDB Connector/J [3.5.2])
+2025-09-24 12:11:17.910 - Execution context closed (swcamp, 10)
+2025-09-24 12:14:36.628 - No active connection
+2025-09-24 12:14:42.316 - Execution context opened (swcamp; SQLEditor <5_distinct.sql>; 13)
+[ WARN] (DBeaver: Read data [SELECT
+ 	 category_code
+     , DISTINCT orderable_status
+  FROM tbl_menu]) Error: 1064-42000: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DISTINCT orderable_status
+  FROM tbl_menu' at line 3
+2025-09-24 12:23:33.656 - SQL Error [1064] [42000]: (conn=93) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DISTINCT orderable_status
+  FROM tbl_menu' at line 3
+
+Error position: line: 2
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1064] [42000]: (conn=93) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DISTINCT orderable_status
+  FROM tbl_menu' at line 3
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:134)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:675)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:568)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleElement(SQLQueryJob.java:587)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:449)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:1061)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4568)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5155)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: (conn=93) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DISTINCT orderable_status
+  FROM tbl_menu' at line 3
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:289)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:187)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1347)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1286)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1205)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1129)
+	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:1003)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:1132)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:471)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:328)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:132)
+	... 13 more
+2025-09-24 12:26:45.707 - Execution context closed (swcamp, 13)
+2025-09-24 12:35:57.401 - No active connection
+2025-09-24 12:36:00.762 - Execution context opened (swcamp; SQLEditor <6_limit.sql>; 14)
+> Start DBeaver Tasks View [org.jkiss.dbeaver.tasks.ui.view 1.0.112.202509211659]
+2025-09-24 14:07:34.878 - Execution context closed (swcamp, 14)
+2025-09-24 14:07:45.156 - Execution context opened (ott_platform; SQLEditor <Script-2.sql>; 15)
+2025-09-24 14:17:48.687 - Execution context closed (ott_platform, 11)
+2025-09-24 14:17:48.689 - Execution context closed (swcamp, 6)
+2025-09-24 14:17:48.698 - Execution context closed (ott_platform, 12)
+2025-09-24 14:17:48.700 - Execution context closed (swcamp, 7)
+2025-09-24 14:17:48.700 - Disconnected (mariaDB-1997570d0c9-1dd22d8b845caac7)
+2025-09-24 14:17:48.717 - Execution context closed (ott_platform, 15)
+2025-09-24 14:17:48.717 - Disconnected (mariaDB-19978f33f32-66686ec69c9e32ad)
+2025-09-24 14:17:48.768 - Datasource mariaDB-19978f33f32-66686ec69c9e32ad not found in project General (/General/Scripts/Script-2.sql)
+2025-09-24 14:17:48.840 - Datasource mariaDB-19978f33f32-66686ec69c9e32ad not found in project General (/General/Scripts/Script-2.sql)
+2025-09-24 14:17:48.843 - Datasource mariaDB-19978f33f32-66686ec69c9e32ad not found in project General (/General/Scripts/Script-2.sql)
+2025-09-24 14:17:49.303 - Datasource mariaDB-19978f33f32-66686ec69c9e32ad not found in project General (/General/Scripts/Script-2.sql)
+2025-09-24 14:17:49.790 - Datasource mariaDB-19978f33f32-66686ec69c9e32ad not found in project General (/General/Scripts/Script-2.sql)
+2025-09-24 14:17:49.957 - Datasource mariaDB-19978f33f32-66686ec69c9e32ad not found in project General (/General/Scripts/Script-2.sql)
+2025-09-24 14:17:50.136 - Datasource mariaDB-19978f33f32-66686ec69c9e32ad not found in project General (/General/Scripts/Script-2.sql)
+2025-09-24 14:17:50.358 - Datasource mariaDB-19978f33f32-66686ec69c9e32ad not found in project General (/General/Scripts/Script-2.sql)
+2025-09-24 14:17:50.556 - Datasource mariaDB-19978f33f32-66686ec69c9e32ad not found in project General (/General/Scripts/Script-2.sql)
+2025-09-24 14:21:01.229 - Service 'org.jkiss.dbeaver.ui.UIServiceConnectionEditor' not found
+2025-09-24 14:21:01.271 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
+2025-09-24 14:21:11.497 - Connect with 'localhost' (mariaDB-1997a2b231b-e06f1c02076d94a)
+2025-09-24 14:21:11.498 - Execution context opened (localhost; Main; 16)
+2025-09-24 14:21:11.520 - Connected (mariaDB-1997a2b231b-e06f1c02076d94a, MariaDB Connector/J [3.5.2])
+2025-09-24 14:21:11.533 - Execution context closed (localhost, 16)
+2025-09-24 14:21:11.533 - Disconnected (mariaDB-1997a2b231b-e06f1c02076d94a)
+2025-09-24 14:22:13.773 - Service 'org.jkiss.dbeaver.ui.UIServiceConnectionEditor' not found
+2025-09-24 14:22:13.817 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
+2025-09-24 14:22:23.461 - Connect with 'localhost' (mariaDB-1997a2c3c2f-d5de0c8ec97f39d)
+2025-09-24 14:22:23.461 - Execution context opened (localhost; Main; 17)
+[ WARN] (Connect to 'localhost') Error: 1045-28000: Access denied for user 'swcamp'@'localhost' (using password: YES)
+2025-09-24 14:22:23.526 - (conn=113) Access denied for user 'swcamp'@'localhost' (using password: YES)
+java.sql.SQLInvalidAuthorizationSpecException: (conn=113) Access denied for user 'swcamp'@'localhost' (using password: YES)
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:293)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.client.impl.StandardClient.authenticationHandler(StandardClient.java:446)
+	at org.mariadb.jdbc.client.impl.StandardClient.handleAuthentication(StandardClient.java:342)
+	at org.mariadb.jdbc.client.impl.StandardClient.setupConnection(StandardClient.java:159)
+	at org.mariadb.jdbc.client.impl.StandardClient.<init>(StandardClient.java:127)
+	at org.mariadb.jdbc.Driver.connect(Driver.java:75)
+	at org.mariadb.jdbc.Driver.connect(Driver.java:104)
+	at org.mariadb.jdbc.Driver.connect(Driver.java:29)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:112)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:86)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:215)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:133)
+	at org.jkiss.dbeaver.ext.mysql.model.MySQLDataSource.openConnection(MySQLDataSource.java:516)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCExecutionContext.connect(JDBCExecutionContext.java:124)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.initializeMainContext(JDBCRemoteInstance.java:106)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.<init>(JDBCRemoteInstance.java:61)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.initializeRemoteInstance(JDBCDataSource.java:125)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:109)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:100)
+	at org.jkiss.dbeaver.ext.mysql.model.MySQLDataSource.<init>(MySQLDataSource.java:123)
+	at org.jkiss.dbeaver.ext.mysql.model.MySQLDataSource.<init>(MySQLDataSource.java:118)
+	at org.jkiss.dbeaver.ext.mysql.MySQLDataSourceProvider.openDataSource(MySQLDataSourceProvider.java:154)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.openDataSource(DataSourceDescriptor.java:1413)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect0(DataSourceDescriptor.java:1271)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect(DataSourceDescriptor.java:1061)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectJob.run(ConnectJob.java:78)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectionTestJob.run(ConnectionTestJob.java:102)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-09-24 14:22:28.640 - Connect with 'localhost' (mariaDB-1997a2c5065-77427b83ee94435c)
+2025-09-24 14:22:28.641 - Execution context opened (localhost; Main; 18)
+2025-09-24 14:22:28.663 - Connected (mariaDB-1997a2c5065-77427b83ee94435c, MariaDB Connector/J [3.5.2])
+2025-09-24 14:22:28.675 - Execution context closed (localhost, 18)
+2025-09-24 14:22:28.675 - Disconnected (mariaDB-1997a2c5065-77427b83ee94435c)
+2025-09-24 14:23:10.628 - Service 'org.jkiss.dbeaver.ui.UIServiceConnectionEditor' not found
+2025-09-24 14:23:10.665 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
+2025-09-24 14:23:17.445 - Connect with 'localhost' (mariaDB-1997a2d0f10-3ebaee6020bbaad)
+2025-09-24 14:23:17.446 - Execution context opened (localhost; Main; 19)
+2025-09-24 14:23:17.469 - Connected (mariaDB-1997a2d0f10-3ebaee6020bbaad, MariaDB Connector/J [3.5.2])
+2025-09-24 14:23:17.481 - Execution context closed (localhost, 19)
+2025-09-24 14:23:17.481 - Disconnected (mariaDB-1997a2d0f10-3ebaee6020bbaad)
+2025-09-24 14:23:48.964 - Service 'org.jkiss.dbeaver.ui.UIServiceConnectionEditor' not found
+2025-09-24 14:23:49.005 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
+2025-09-24 14:23:58.900 - Connect with 'localhost' (mariaDB-1997a2db0fc-4244d17c666a77ab)
+2025-09-24 14:23:58.901 - Execution context opened (localhost; Main; 20)
+[ WARN] (Connect to 'localhost') Error: 1045-28000: Access denied for user 'ott_platform'@'localhost' (using password: YES)
+2025-09-24 14:23:58.965 - (conn=116) Access denied for user 'ott_platform'@'localhost' (using password: YES)
+java.sql.SQLInvalidAuthorizationSpecException: (conn=116) Access denied for user 'ott_platform'@'localhost' (using password: YES)
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:293)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.client.impl.StandardClient.authenticationHandler(StandardClient.java:446)
+	at org.mariadb.jdbc.client.impl.StandardClient.handleAuthentication(StandardClient.java:342)
+	at org.mariadb.jdbc.client.impl.StandardClient.setupConnection(StandardClient.java:159)
+	at org.mariadb.jdbc.client.impl.StandardClient.<init>(StandardClient.java:127)
+	at org.mariadb.jdbc.Driver.connect(Driver.java:75)
+	at org.mariadb.jdbc.Driver.connect(Driver.java:104)
+	at org.mariadb.jdbc.Driver.connect(Driver.java:29)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:112)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:86)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:215)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:133)
+	at org.jkiss.dbeaver.ext.mysql.model.MySQLDataSource.openConnection(MySQLDataSource.java:516)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCExecutionContext.connect(JDBCExecutionContext.java:124)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.initializeMainContext(JDBCRemoteInstance.java:106)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.<init>(JDBCRemoteInstance.java:61)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.initializeRemoteInstance(JDBCDataSource.java:125)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:109)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:100)
+	at org.jkiss.dbeaver.ext.mysql.model.MySQLDataSource.<init>(MySQLDataSource.java:123)
+	at org.jkiss.dbeaver.ext.mysql.model.MySQLDataSource.<init>(MySQLDataSource.java:118)
+	at org.jkiss.dbeaver.ext.mysql.MySQLDataSourceProvider.openDataSource(MySQLDataSourceProvider.java:154)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.openDataSource(DataSourceDescriptor.java:1413)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect0(DataSourceDescriptor.java:1271)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect(DataSourceDescriptor.java:1061)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectJob.run(ConnectJob.java:78)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectionTestJob.run(ConnectionTestJob.java:102)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-09-24 14:24:10.685 - Connect with 'localhost' (mariaDB-1997a2ddefc-76184781ab3c98e)
+2025-09-24 14:24:10.686 - Execution context opened (localhost; Main; 21)
+2025-09-24 14:24:10.707 - Connected (mariaDB-1997a2ddefc-76184781ab3c98e, MariaDB Connector/J [3.5.2])
+2025-09-24 14:24:10.719 - Execution context closed (localhost, 21)
+2025-09-24 14:24:10.719 - Disconnected (mariaDB-1997a2ddefc-76184781ab3c98e)
+2025-09-24 14:27:20.172 - Connect with 'ott_flatform' (mariaDB-1997a2d8a58-7b762d149e89b212)
+2025-09-24 14:27:20.173 - Execution context opened (ott_flatform; Main; 22)
+2025-09-24 14:27:20.177 - Execution context opened (ott_flatform; Metadata; 23)
+2025-09-24 14:27:20.202 - Connected (mariaDB-1997a2d8a58-7b762d149e89b212, MariaDB Connector/J [3.5.2])
+[ WARN] (DBeaver: Delete 6 objects) Error: 1451-23000: Cannot delete or update a parent row: a foreign key constraint fails
+[ WARN] (DBeaver: Delete 6 objects) Error: 1451-23000: Cannot delete or update a parent row: a foreign key constraint fails
+[ WARN] (DBeaver: Delete 6 objects) Error: 1451-23000: Cannot delete or update a parent row: a foreign key constraint fails
+[ WARN] (DBeaver: Delete object) Error: 1451-23000: Cannot delete or update a parent row: a foreign key constraint fails
+2025-09-24 14:27:37.771 - (conn=118) Cannot delete or update a parent row: a foreign key constraint fails
+java.sql.SQLIntegrityConstraintViolationException: (conn=118) Cannot delete or update a parent row: a foreign key constraint fails
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:297)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:187)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1347)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1286)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1205)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1129)
+	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:1003)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:1132)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:471)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:328)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:132)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.executePersistAction(DBExecUtils.java:358)
+	at org.jkiss.dbeaver.model.impl.edit.AbstractObjectManager.executePersistAction(AbstractObjectManager.java:40)
+	at org.jkiss.dbeaver.model.impl.edit.AbstractCommandContext.executeCommands(AbstractCommandContext.java:198)
+	at org.jkiss.dbeaver.model.impl.edit.AbstractCommandContext.saveChanges(AbstractCommandContext.java:125)
+	at org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerObjectBase$ObjectSaver.run(NavigatorHandlerObjectBase.java:297)
+	at org.jkiss.dbeaver.runtime.TasksJob.run(TasksJob.java:58)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-09-24 14:28:19.204 - Execution context opened (ott_flatform; SQLEditor <Script-3.sql>; 24)
+2025-09-24 14:28:41.743 - Execution context closed (ott_flatform, 24)
+2025-09-24 14:29:33.407 - No active connection
+2025-09-24 14:29:38.794 - Execution context opened (ott_flatform; SQLEditor <1.users.sql>; 25)
+2025-09-24 14:32:05.602 - Execution context closed (ott_flatform, 25)
+2025-09-24 14:32:12.696 - No active connection
+2025-09-24 14:32:17.268 - Execution context opened (ott_flatform; SQLEditor <2.creators.sql>; 26)
+2025-09-24 14:32:51.009 - Execution context closed (ott_flatform, 26)
+2025-09-24 14:32:56.328 - Transaction log is not available.
+Connect to a database.
+2025-09-24 14:33:00.447 - Execution context opened (ott_flatform; SQLEditor <3.videos.sql>; 27)
+2025-09-24 14:33:09.729 - Execution context closed (ott_flatform, 27)
+2025-09-24 14:33:17.295 - Execution context opened (ott_flatform; SQLEditor <4.subscriptions.sql>; 28)
+2025-09-24 14:33:29.913 - Execution context closed (ott_flatform, 28)
+2025-09-24 14:34:16.189 - No active connection
+2025-09-24 14:34:19.035 - Transaction log is not available.
+Connect to a database.
+2025-09-24 14:34:22.214 - Execution context opened (ott_flatform; SQLEditor <5.video_likes.sql>; 29)
+2025-09-24 14:35:48.063 - No active connection
+2025-09-24 14:35:51.963 - Execution context opened (ott_flatform; SQLEditor <6.watch_histories.sql>; 30)
+2025-09-24 14:38:04.933 - Execution context opened (ott_flatform; SQLEditor <Script-4.sql>; 31)
+[ WARN] (DBeaver: Read data [-- 문제: users 테이블에 있는 모든 사용자의 모든 정보를 조회하세요.
+SELECT * FROM users]) Error: 1046-3D000: No database selected
+2025-09-24 14:38:33.554 - SQL Error [1046] [3D000]: (conn=127) No database selected
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1046] [3D000]: (conn=127) No database selected
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:134)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:675)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:568)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleElement(SQLQueryJob.java:587)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:449)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:1061)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4568)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5155)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLTransientConnectionException: (conn=127) No database selected
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:309)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:187)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1347)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1286)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1205)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1129)
+	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:1003)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:1132)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:471)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:328)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:132)
+	... 13 more
+[ WARN] (DBeaver: Read data [-- 문제: 조회수(view_count)가 1,000,000 (백만) 회를 초과하는 
+-- 모든 비디오의 creator_id, title, view_count를 조회하세요.
+SELECT
+       creator_id
+     , title
+     , view_count
+  FROM videos
+ WHERE view_count > 1,000,000]) Error: 1064-42000: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '000,000' at line 8
+2025-09-24 16:13:50.972 - SQL Error [1064] [42000]: (conn=127) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '000,000' at line 8
+
+Error position: line: 7
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1064] [42000]: (conn=127) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '000,000' at line 8
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:134)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:675)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:568)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleElement(SQLQueryJob.java:587)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:449)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:1061)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4568)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5155)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: (conn=127) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '000,000' at line 8
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:289)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:187)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1347)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1286)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1205)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1129)
+	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:1003)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:1132)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:471)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:328)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:132)
+	... 13 more
+[ WARN] (DBeaver: Read data [겜__]) Error: 1064-42000: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '겜__' at line 1
+2025-09-24 16:40:47.193 - SQL Error [1064] [42000]: (conn=127) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '겜__' at line 1
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1064] [42000]: (conn=127) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '겜__' at line 1
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:134)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:675)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:568)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleElement(SQLQueryJob.java:587)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:449)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:1061)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4568)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5155)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: (conn=127) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '겜__' at line 1
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:289)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:187)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1347)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1286)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1205)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1129)
+	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:1003)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:1132)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:471)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:328)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:132)
+	... 13 more

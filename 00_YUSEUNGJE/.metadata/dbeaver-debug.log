@@ -1,0 +1,863 @@
+2025-09-26 08:40:44.162 - DBeaver 25.2.1.202509211659 is starting
+2025-09-26 08:40:44.163 - OS: Windows 11 10.0 (amd64)
+2025-09-26 08:40:44.163 - Java version: 21.0.8 by Eclipse Adoptium (64bit)
+2025-09-26 08:40:44.163 - Install path: 'C:\Program Files\DBeaver'
+2025-09-26 08:40:44.163 - Instance path: 'file:/C:/dev/01_database/00_YUSEUNGJE/'
+2025-09-26 08:40:44.164 - Memory available 64Mb/1024Mb
+2025-09-26 08:40:44.170 - Create display
+2025-09-26 08:40:44.256 - Initialize desktop platform...
+2025-09-26 08:40:44.356 - BounceCastle bundle found. Use JCE provider BC
+> Start Core File Systems [org.eclipse.core.filesystem 1.11.200.v20250513-1234]
+> Start Core Resource Management [org.eclipse.core.resources 3.22.200.v20250513-1234]
+> Start 팀 지원 핵심 [org.eclipse.team.core 3.10.700.v20250313-0656]
+> Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.163.202509211659]
+2025-09-26 08:40:44.489 - Initialize base platform...
+2025-09-26 08:40:44.507 - send collected statistics
+2025-09-26 08:40:44.514 - Platform initialized (258ms)
+2025-09-26 08:40:44.610 - Starting instance server at http://localhost:61367
+2025-09-26 08:40:44.615 - Run workbench
+> Start Eclipse e4 작업영역 SWT [org.eclipse.e4.ui.workbench.swt 0.17.800.v20250422-1254]
+> Start Eclipse Application Services [org.eclipse.e4.core.services 2.5.200.v20250326-1945]
+> Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.6.500.v20250123-0754]
+> Start Eclipse e4 Progress View [org.eclipse.e4.ui.progress 0.4.800.v20250422-1254]
+> Start Eclipse Bindings Support [org.eclipse.e4.ui.bindings 0.14.600.v20250331-1050]
+> Start Eclipse e4 core commands [org.eclipse.e4.core.commands 1.1.600.v20250307-1331]
+> Start EMF XML/XMI Persistence [org.eclipse.emf.ecore.xmi 2.39.0.v20250414-1351]
+> Start Eclipse CSS SWT Theme Support [org.eclipse.e4.ui.css.swt.theme 0.14.500.v20250213-1508]
+> Start Eclipse e4 작업영역 기능 추가 [org.eclipse.e4.ui.workbench.addons.swt 1.5.700.v20250422-1254]
+Warning: NLS unused message: WorkbenchPreference_reuseEditorsThreshold in: org.eclipse.ui.internal.messages
+Warning: NLS unused message: 이유 in: org.eclipse.ui.internal.messages
+> Start Eclipse e4 작업영역 SWT 렌더러 [org.eclipse.e4.ui.workbench.renderers.swt 0.16.800.v20250519-1609]
+> Start Eclipse Dependency Injection Extensions [org.eclipse.e4.core.di.extensions 0.18.300.v20240413-1529]
+> Start DBeaver AI Model [org.jkiss.dbeaver.model.ai 2.0.6.202509211659]
+> Start DBeaver AI UI [org.jkiss.dbeaver.ui.ai 1.0.65.202509211659]
+> Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.15.600.v20250409-1135]
+2025-09-26 08:40:45.829 - Configure workbench window
+> Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.153.202509211659]
+2025-09-26 08:40:46.020 - Total database drivers: 128 (128)
+> Start 도움말 시스템 코어 [org.eclipse.help 3.10.500.v20250423-1201]
+2025-09-26 08:40:46.072 - Create actions
+2025-09-26 08:40:46.081 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
+2025-09-26 08:40:46.081 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
+2025-09-26 08:40:46.081 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
+2025-09-26 08:40:46.082 - Create workbench actions
+2025-09-26 08:40:46.456 - Initialize workbench window
+2025-09-26 08:40:46.461 - Finish initialization
+> Start 기본 문서 편집기 [org.eclipse.ui.editors 3.20.0.v20250514-1719]
+> Start 텍스트 편집기 프레임워크 [org.eclipse.ui.workbench.texteditor 3.19.200.v20250514-1719]
+> Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.163.202509211659]
+> Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.163.202509211659]
+Warning: NLS unused message: FindReplace_RegExCheckbox_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_WrapCheckBox_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_IncrementalCheckBox_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_Options in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_ReplaceSelectionButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_SelectedRangeRadioButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_SelectAllButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_GlobalRadioButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_WholeWordCheckBox_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_ReplaceFindButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_BackwardRadioButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_CloseButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_Replace_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_CaseCheckBox_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_Status_replacements_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_title in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_Direction in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_ReplaceAllButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_Scope in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_Find_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_ForwardRadioButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_FindNextButton_label in: org.eclipse.ui.texteditor.EditorMessages
+> Start DBeaver SQL Terminal [org.jkiss.dbeaver.ui.editors.sql.terminal 1.0.139.202509211659]
+> Start 핵심 비교 지원 [org.eclipse.compare.core 3.8.700.v20250120-0641]
+> Start Equinox Java Authentication and Authorization Service (JAAS) [org.eclipse.equinox.security 1.4.600.v20250521-0413]
+> Start 인터넷 연결 관리 사용자 인터페이스 [org.eclipse.ui.net 1.5.400.v20240413-1529]
+> Start Internet Connection Management [org.eclipse.core.net 1.5.700.v20250313-0656]
+> Start DBeaver Sample Database [org.jkiss.dbeaver.ui.config.sample 1.0.200.202509211659]
+2025-09-26 08:40:47.903 - Open [https://dbeaver.io/product/version.xml]
+> Start DBeaver Dashboard UI [org.jkiss.dbeaver.ui.dashboard 1.0.160.202509211659]
+> Start GEF Classic Draw2d [org.eclipse.draw2d 3.20.0.202505280821]
+> Start GEF Classic GEF (MVC) [org.eclipse.gef 3.22.0.202505280821]
+> Start DBeaver ERD UI [org.jkiss.dbeaver.ui.editors.erd 3.1.4.202509211659]
+> Start DBeaver ERD Model [org.jkiss.dbeaver.model.erd 1.1.4.202509211659]
+> Start DBeaver JDBC Model [org.jkiss.dbeaver.model.jdbc 1.0.56.202509211659]
+> Start DBeaver MySQL Support [org.jkiss.dbeaver.ext.mysql 2.1.248.202509211659]
+> Start 콘솔 [org.eclipse.ui.console 3.14.300.v20250509-1251]
+> Start 디버그 핵심 [org.eclipse.debug.core 3.23.0.v20250509-1924]
+2025-09-26 08:40:48.408 - Connect with 'ott_flatform' (mariaDB-1997a2d8a58-7b762d149e89b212)
+2025-09-26 08:40:48.425 - Execution context opened (ott_flatform; Main; 0)
+> Start DBeaver GIS Support [org.jkiss.dbeaver.data.gis 1.0.187.202509211659]
+2025-09-26 08:40:48.646 - Execution context opened (ott_flatform; Metadata; 1)
+2025-09-26 08:40:48.700 - Connected (mariaDB-1997a2d8a58-7b762d149e89b212, MariaDB Connector/J [3.5.2])
+2025-09-26 08:40:48.730 - Execution context opened (ott_flatform; SQLEditor <Script-9.sql>; 2)
+> Start DBeaver SQL Language Semantic Model [org.jkiss.dbeaver.model.lsm 1.0.58.202509211659]
+> Start DBeaver Tasks - Native Tools UI [org.jkiss.dbeaver.tasks.native.ui 1.0.141.202509211659]
+> Start DBeaver MySQL UI Support [org.jkiss.dbeaver.ext.mysql.ui 1.0.155.202509211659]
+> Start DBeaver Tasks - General UI [org.jkiss.dbeaver.tasks.ui 1.0.141.202509211659]
+2025-09-26 09:13:18.352 - Execution context closed (ott_flatform, 2)
+2025-09-26 09:23:40.295 - Connect with 'swcamp' (mariaDB-1997a2c1683-2babbf3db3d1aa06)
+2025-09-26 09:23:40.296 - Execution context opened (swcamp; Main; 3)
+2025-09-26 09:23:40.301 - Execution context opened (swcamp; Metadata; 4)
+2025-09-26 09:23:40.317 - Execution context opened (swcamp; SQLEditor <9_subquery.sql>; 5)
+2025-09-26 09:23:40.324 - Connected (mariaDB-1997a2c1683-2babbf3db3d1aa06, MariaDB Connector/J [3.5.2])
+2025-09-26 09:46:43.470 - Resource 'meta.org.jkiss.dbeaver.model.exec.plan.DBCPlanNode.nodeName.name' not found in bundle org.jkiss.dbeaver.ext.mysql
+2025-09-26 09:47:05.167 - Resource 'meta.org.jkiss.dbeaver.model.exec.plan.DBCPlanNode.nodeName.name' not found in bundle org.jkiss.dbeaver.ext.mysql
+2025-09-26 09:48:18.026 - Resource 'meta.org.jkiss.dbeaver.model.exec.plan.DBCPlanNode.nodeName.name' not found in bundle org.jkiss.dbeaver.ext.mysql
+> Start 검색 지원 [org.eclipse.search 3.17.200.v20250427-1424]
+2025-09-26 10:15:49.417 - Error while analyzing query text: -- exists : 조회 결과가 있을 때 true, 없을 때 false
+-- 메뉴 테이블에 존재하는 카테고리만 조회
+SELECT 
+       category_name
+  FROM tbl_category a
+ WHERE EXISTS 
+java.lang.NullPointerException: Cannot invoke "org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.resolveObjectAndRowsReferences(org.jkiss.dbeaver.model.sql.semantics.context.SQLQueryRowsSourceContext, org.jkiss.dbeaver.model.sql.semantics.SQLQueryRecognitionContext)" because "this.source" is null
+	at org.jkiss.dbeaver.model.sql.semantics.model.expressions.SQLQueryValueSubqueryExpression.resolveRowSourcesImpl(SQLQueryValueSubqueryExpression.java:52)
+	at org.jkiss.dbeaver.model.sql.semantics.model.expressions.SQLQueryValueExpression.resolveRowSources(SQLQueryValueExpression.java:68)
+	at org.jkiss.dbeaver.model.sql.semantics.model.expressions.SQLQueryValueFlattenedExpression.resolveRowSourcesImpl(SQLQueryValueFlattenedExpression.java:52)
+	at org.jkiss.dbeaver.model.sql.semantics.model.expressions.SQLQueryValueExpression.resolveRowSources(SQLQueryValueExpression.java:68)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.resolveRowSourcesImpl(SQLQueryRowsProjectionModel.java:166)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.resolveRowSources(SQLQueryRowsSourceModel.java:91)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.resolveObjectAndRowsReferences(SQLQueryRowsSourceModel.java:79)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.resolveRelations(SQLQueryModel.java:72)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:155)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:1024)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:605)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:85)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-09-26 10:16:01.133 - Error while analyzing query text: -- exists : 조회 결과가 있을 때 true, 없을 때 false
+-- 메뉴 테이블에 존재하는 카테고리만 조회
+SELECT 
+       category_name
+  FROM tbl_category a
+ WHERE EXISTS *
+java.lang.NullPointerException: Cannot invoke "org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.resolveObjectAndRowsReferences(org.jkiss.dbeaver.model.sql.semantics.context.SQLQueryRowsSourceContext, org.jkiss.dbeaver.model.sql.semantics.SQLQueryRecognitionContext)" because "this.source" is null
+	at org.jkiss.dbeaver.model.sql.semantics.model.expressions.SQLQueryValueSubqueryExpression.resolveRowSourcesImpl(SQLQueryValueSubqueryExpression.java:52)
+	at org.jkiss.dbeaver.model.sql.semantics.model.expressions.SQLQueryValueExpression.resolveRowSources(SQLQueryValueExpression.java:68)
+	at org.jkiss.dbeaver.model.sql.semantics.model.expressions.SQLQueryValueFlattenedExpression.resolveRowSourcesImpl(SQLQueryValueFlattenedExpression.java:52)
+	at org.jkiss.dbeaver.model.sql.semantics.model.expressions.SQLQueryValueExpression.resolveRowSources(SQLQueryValueExpression.java:68)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.resolveRowSourcesImpl(SQLQueryRowsProjectionModel.java:166)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.resolveRowSources(SQLQueryRowsSourceModel.java:91)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.resolveObjectAndRowsReferences(SQLQueryRowsSourceModel.java:79)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.resolveRelations(SQLQueryModel.java:72)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:155)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:1024)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:605)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:85)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+[ WARN] (DBeaver: Read data [SELECT 1
+ 		     FROM tbl_menu b
+ 		    WHERE b.category_code = a.category_code ]) Error: 1054-42S22: Unknown column 'a.category_code' in 'WHERE'
+2025-09-26 10:17:18.563 - SQL Error [1054] [42S22]: (conn=485) Unknown column 'a.category_code' in 'WHERE'
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1054] [42S22]: (conn=485) Unknown column 'a.category_code' in 'WHERE'
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:134)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:675)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:568)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleElement(SQLQueryJob.java:587)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:449)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:1061)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4568)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5155)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: (conn=485) Unknown column 'a.category_code' in 'WHERE'
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:289)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:187)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1347)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1286)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1205)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1129)
+	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:1003)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:1132)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:471)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:328)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:132)
+	... 13 more
+[ WARN] (DBeaver: Read data [SELECT 
+       menu_code
+     , menu_name
+     , menu_price
+     , category_code
+     , orderable_status
+  FROM 
+       tbl_menu a
+ WHERE
+       menu_price = (SELECT MAX(b.a.menu_price)
+                       FROM tbl_menu b
+                      WHERE b.category_code = a.a.category_code 
+                    )]) Error: 1054-42S22: Unknown column 'b.a.menu_price' in 'SELECT'
+2025-09-26 10:28:46.585 - SQL Error [1054] [42S22]: (conn=485) Unknown column 'b.a.menu_price' in 'SELECT'
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1054] [42S22]: (conn=485) Unknown column 'b.a.menu_price' in 'SELECT'
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:134)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:675)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:568)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleElement(SQLQueryJob.java:587)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:449)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:1061)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4568)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5155)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: (conn=485) Unknown column 'b.a.menu_price' in 'SELECT'
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:289)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:187)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1347)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1286)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1205)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1129)
+	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:1003)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:1132)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:471)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:328)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:132)
+	... 13 more
+[ WARN] (DBeaver: Read data [SELECT 
+       menu_code
+     , menu_name
+     , menu_price
+     , category_code
+     , orderable_status
+  FROM 
+       tbl_menu a
+ WHERE
+       menu_price = (SELECT MAX(b.menu_price)
+                       FROM tbl_menu b
+                      WHERE b.category_code = a.a.category_code 
+                    )]) Error: 1054-42S22: Unknown column 'a.a.category_code' in 'WHERE'
+2025-09-26 10:29:15.182 - SQL Error [1054] [42S22]: (conn=485) Unknown column 'a.a.category_code' in 'WHERE'
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1054] [42S22]: (conn=485) Unknown column 'a.a.category_code' in 'WHERE'
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:134)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:675)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:568)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleElement(SQLQueryJob.java:587)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:449)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:1061)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4568)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5155)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: (conn=485) Unknown column 'a.a.category_code' in 'WHERE'
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:289)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:187)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1347)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1286)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1205)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1129)
+	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:1003)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:1132)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:471)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:328)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:132)
+	... 13 more
+2025-09-26 10:38:14.884 - Error applying completion proposal
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.jface.text.AbstractDocument.replace(AbstractDocument.java:1079)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.replace(SynchronizableDocument.java:271)
+	at org.eclipse.jface.text.AbstractDocument.replace(AbstractDocument.java:1109)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.replace(SynchronizableDocument.java:259)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLEditorQueryCompletionProposal.apply(SQLEditorQueryCompletionProposal.java:144)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.insertProposal(CompletionProposalPopup.java:999)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.insertSelectedProposalWithMask(CompletionProposalPopup.java:951)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.verifyKey(CompletionProposalPopup.java:1395)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$InternalListener.verifyKey(ContentAssistant.java:829)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:482)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4338)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1214)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1238)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1223)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:860)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5742)
+	at org.eclipse.swt.custom.StyledText.lambda$30(StyledText.java:5426)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4338)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1214)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1238)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1223)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1265)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1261)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1748)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4902)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:341)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4779)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:336)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5106)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3722)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:678)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.jkiss.dbeaver.ui.app.standalone.DBeaverApplication.start(DBeaverApplication.java:313)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.invokeFramework(DBeaverLauncher.java:884)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.basicRun(DBeaverLauncher.java:661)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.run(DBeaverLauncher.java:1665)
+2025-09-26 10:43:42.951 - Resource 'meta.org.jkiss.dbeaver.model.exec.plan.DBCPlanNode.nodeName.name' not found in bundle org.jkiss.dbeaver.ext.mysql
+2025-09-26 10:43:45.215 - Resource 'meta.org.jkiss.dbeaver.model.exec.plan.DBCPlanNode.nodeName.name' not found in bundle org.jkiss.dbeaver.ext.mysql
+2025-09-26 10:44:46.378 - Resource 'meta.org.jkiss.dbeaver.model.exec.plan.DBCPlanNode.nodeName.name' not found in bundle org.jkiss.dbeaver.ext.mysql
+2025-09-26 10:44:53.325 - Resource 'meta.org.jkiss.dbeaver.model.exec.plan.DBCPlanNode.nodeName.name' not found in bundle org.jkiss.dbeaver.ext.mysql
+2025-09-26 10:44:58.592 - Resource 'meta.org.jkiss.dbeaver.model.exec.plan.DBCPlanNode.nodeName.name' not found in bundle org.jkiss.dbeaver.ext.mysql
+2025-09-26 10:45:09.836 - Resource 'meta.org.jkiss.dbeaver.model.exec.plan.DBCPlanNode.nodeName.name' not found in bundle org.jkiss.dbeaver.ext.mysql
+2025-09-26 10:45:28.437 - Resource 'meta.org.jkiss.dbeaver.model.exec.plan.DBCPlanNode.nodeName.name' not found in bundle org.jkiss.dbeaver.ext.mysql
+2025-09-26 10:45:36.026 - Resource 'meta.org.jkiss.dbeaver.model.exec.plan.DBCPlanNode.nodeName.name' not found in bundle org.jkiss.dbeaver.ext.mysql
+2025-09-26 10:45:38.725 - Resource 'meta.org.jkiss.dbeaver.model.exec.plan.DBCPlanNode.nodeName.name' not found in bundle org.jkiss.dbeaver.ext.mysql
+2025-09-26 10:45:39.343 - Resource 'meta.org.jkiss.dbeaver.model.exec.plan.DBCPlanNode.nodeName.name' not found in bundle org.jkiss.dbeaver.ext.mysql
+2025-09-26 10:45:40.118 - Resource 'meta.org.jkiss.dbeaver.model.exec.plan.DBCPlanNode.nodeName.name' not found in bundle org.jkiss.dbeaver.ext.mysql
+2025-09-26 10:45:45.930 - Resource 'meta.org.jkiss.dbeaver.model.exec.plan.DBCPlanNode.nodeName.name' not found in bundle org.jkiss.dbeaver.ext.mysql
+2025-09-26 10:45:47.919 - Resource 'meta.org.jkiss.dbeaver.model.exec.plan.DBCPlanNode.nodeName.name' not found in bundle org.jkiss.dbeaver.ext.mysql
+2025-09-26 11:20:37.268 - Table 'menudb.menucate' not found in metadata catalog
+2025-09-26 11:20:37.269 - Table 'menudb.menucate' not found in metadata catalog
+2025-09-26 11:23:21.142 - Execution context closed (swcamp, 5)
+2025-09-26 11:28:23.475 - No active connection
+2025-09-26 11:28:27.903 - Execution context opened (swcamp; SQLEditor <10_set-operators.sql>; 6)
+[ WARN] (DBeaver: Read data [-- 2. union all
+-- 두 개 이상의 select 문의 결과를 결합하여 중복 레코드 제거하지 않고 반환
+SELECT 
+       menu_code
+     , menu_name
+     , menu_price
+     , category_code
+     , orderable_status
+  FROM tbl_menu
+ WHERE category_code = 10
+ UNION ALL
+SELECT 
+       menu_code
+     , menu_name
+     , menu_price
+     , category_code]) Error: 1054-42S22: Unknown column 'menu_code' in 'SELECT'
+2025-09-26 11:35:10.514 - SQL Error [1054] [42S22]: (conn=488) Unknown column 'menu_code' in 'SELECT'
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1054] [42S22]: (conn=488) Unknown column 'menu_code' in 'SELECT'
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:134)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:675)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:568)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleElement(SQLQueryJob.java:587)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:449)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:1061)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4568)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5155)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: (conn=488) Unknown column 'menu_code' in 'SELECT'
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:289)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:187)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1347)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1286)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1205)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1129)
+	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:1003)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:1132)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:471)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:328)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:132)
+	... 13 more
+[ WARN] (DBeaver: Read data [-- 2. union all
+-- 두 개 이상의 select 문의 결과를 결합하여 중복 레코드 제거하지 않고 반환
+SELECT 
+       menu_code
+     , menu_name
+     , menu_price
+     , category_code
+     , orderable_status
+  FROM tbl_menu
+ WHERE category_code = 10
+ UNION ALL
+SELECT 
+       menu_code
+     , menu_name
+     , menu_price
+     , category_code]) Error: 1054-42S22: Unknown column 'menu_code' in 'SELECT'
+2025-09-26 11:35:20.266 - SQL Error [1054] [42S22]: (conn=488) Unknown column 'menu_code' in 'SELECT'
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1054] [42S22]: (conn=488) Unknown column 'menu_code' in 'SELECT'
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:134)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:675)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:568)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleElement(SQLQueryJob.java:587)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:449)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:1061)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4568)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5155)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: (conn=488) Unknown column 'menu_code' in 'SELECT'
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:289)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:187)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1347)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1286)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1205)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1129)
+	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:1003)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:1132)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:471)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:328)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:132)
+	... 13 more
+[ WARN] (DBeaver: Read data [-- 2. union all
+-- 두 개 이상의 select 문의 결과를 결합하여 중복 레코드 제거하지 않고 반환
+SELECT 
+       menu_code
+     , menu_name
+     , menu_price
+     , category_code
+     , orderable_status
+  FROM tbl_menu
+ WHERE category_code = 10
+ UNION ALL
+SELECT 
+       menu_code
+     , menu_name
+     , menu_price
+     , category_code]) Error: 1054-42S22: Unknown column 'menu_code' in 'SELECT'
+2025-09-26 11:35:22.042 - SQL Error [1054] [42S22]: (conn=488) Unknown column 'menu_code' in 'SELECT'
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1054] [42S22]: (conn=488) Unknown column 'menu_code' in 'SELECT'
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:134)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:675)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:568)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleElement(SQLQueryJob.java:587)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:449)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:1061)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4568)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5155)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: (conn=488) Unknown column 'menu_code' in 'SELECT'
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:289)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:187)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1347)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1286)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1205)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1129)
+	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:1003)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:1132)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:471)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:328)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:132)
+	... 13 more
+2025-09-26 11:54:11.683 - Execution context opened (swcamp; SQLEditor <9_subquery.sql>; 7)
+2025-09-26 11:57:03.796 - Resource 'meta.org.jkiss.dbeaver.model.exec.plan.DBCPlanNode.nodeName.name' not found in bundle org.jkiss.dbeaver.ext.mysql
+2025-09-26 11:57:05.061 - Resource 'meta.org.jkiss.dbeaver.model.exec.plan.DBCPlanNode.nodeName.name' not found in bundle org.jkiss.dbeaver.ext.mysql
+2025-09-26 11:57:06.996 - Resource 'meta.org.jkiss.dbeaver.model.exec.plan.DBCPlanNode.nodeName.name' not found in bundle org.jkiss.dbeaver.ext.mysql
+2025-09-26 11:57:07.509 - Resource 'meta.org.jkiss.dbeaver.model.exec.plan.DBCPlanNode.nodeName.name' not found in bundle org.jkiss.dbeaver.ext.mysql
+2025-09-26 12:13:05.201 - Table 'menudb.b' not found in metadata catalog
+2025-09-26 12:17:41.434 - Table 'menudb.b' not found in metadata catalog
+[ WARN] (DBeaver: Read data [SELECT 
+       menu_code
+     , menu_name
+     , menu_price
+     , category_code
+     , orderable_status
+  FROM tbl_menu
+ WHERE category_code = 10
+ MINUS 
+SELECT 
+       menu_code
+     , menu_name
+     , menu_price
+     , category_code
+     , orderable_status
+  FROM tbl_menu
+ WHERE menu_price < 9000]) Error: 1064-42000: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'MINUS 
+SELECT 
+       menu_code
+     , menu_name
+     , menu_price
+     ...' at line 10
+2025-09-26 12:19:42.251 - SQL Error [1064] [42000]: (conn=488) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'MINUS 
+SELECT 
+       menu_code
+     , menu_name
+     , menu_price
+     ...' at line 10
+
+Error position: line: 9
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1064] [42000]: (conn=488) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'MINUS 
+SELECT 
+       menu_code
+     , menu_name
+     , menu_price
+     ...' at line 10
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:134)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:675)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:568)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleElement(SQLQueryJob.java:587)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:449)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:1061)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4568)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5155)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: (conn=488) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'MINUS 
+SELECT 
+       menu_code
+     , menu_name
+     , menu_price
+     ...' at line 10
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:289)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:187)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1347)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1286)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1205)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1129)
+	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:1003)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:1132)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:471)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:328)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:132)
+	... 13 more
+> Start DBeaver Data Transfer [org.jkiss.dbeaver.data.transfer 2.0.147.202509211659]
+2025-09-26 12:20:52.271 - Table 'menudb.b' not found in metadata catalog
+2025-09-26 14:16:17.299 - Execution context opened (swcamp; SQLEditor <Script-10.sql>; 8)
+2025-09-26 14:29:54.952 - Execution context opened (ott_flatform; SQLEditor <Script-10.sql>; 9)
+2025-09-26 14:29:54.962 - Execution context closed (swcamp, 8)
+2025-09-26 14:30:08.074 - org.eclipse.swt.SWTException: Widget is disposed
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4945)
+	at org.eclipse.swt.SWT.error(SWT.java:4860)
+	at org.eclipse.swt.SWT.error(SWT.java:4831)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:507)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:426)
+	at org.eclipse.swt.widgets.Composite.getLayout(Composite.java:499)
+	at org.jkiss.dbeaver.ui.controls.ProgressPageControl.createSearchControls(ProgressPageControl.java:378)
+	at org.jkiss.dbeaver.ui.controls.ProgressPageControl.performSearch(ProgressPageControl.java:513)
+	at org.jkiss.dbeaver.ui.navigator.dialogs.ObjectListDialog$DialogObjectListControl$2.completeLoading(ObjectListDialog.java:250)
+	at org.jkiss.dbeaver.ui.navigator.itemlist.ObjectListControl$ObjectsLoadVisualizer.completeLoading(ObjectListControl.java:1)
+	at org.jkiss.dbeaver.ui.LoadingJob$LoadFinisher.run(LoadingJob.java:128)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4111)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3727)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:678)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.jkiss.dbeaver.ui.app.standalone.DBeaverApplication.start(DBeaverApplication.java:313)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.invokeFramework(DBeaverLauncher.java:884)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.basicRun(DBeaverLauncher.java:661)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.run(DBeaverLauncher.java:1665)
+[ WARN] (DBeaver: Read data [SELECT video_id 
+                                       FROM videos 
+                                      WHERE creator_id = (SELECT creator_id 
+                                                            FROM creators 
+                                                           WHERE channel_name = '코딩 아카데미'
+                                                         )
+						
+                                    )]) Error: 1064-42000: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 8
+2025-09-26 14:42:40.475 - SQL Error [1064] [42000]: (conn=494) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 8
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1064] [42000]: (conn=494) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 8
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:134)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:675)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:568)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleElement(SQLQueryJob.java:587)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:449)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:1061)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4568)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5155)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: (conn=494) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 8
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:289)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:187)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1347)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1286)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1205)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1129)
+	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:1003)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:1132)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:471)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:328)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:132)
+	... 13 more
+[ WARN] (DBeaver: Read data [SELECT user_id 
+                    FROM video_likes  
+                   WHERE video_id =(SELECT video_id 
+                                       FROM videos 
+                                      WHERE creator_id = (SELECT creator_id 
+                                                            FROM creators 
+                                                           WHERE channel_name = '코딩 아카데미'
+                                                         )
+						
+                                    )]) Error: 1242-21000: Subquery returns more than 1 row
+2025-09-26 14:43:05.461 - SQL Error [1242] [21000]: (conn=494) Subquery returns more than 1 row
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1242] [21000]: (conn=494) Subquery returns more than 1 row
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:134)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:675)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:568)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleElement(SQLQueryJob.java:587)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:449)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:1061)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4568)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5155)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: (conn=494) Subquery returns more than 1 row
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:297)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:187)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1347)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1286)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1205)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1129)
+	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:1003)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:1132)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:471)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:328)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:132)
+	... 13 more
+[ WARN] (DBeaver: Read data [)]) Error: 1064-42000: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+2025-09-26 14:44:20.069 - SQL Error [1064] [42000]: (conn=494) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+
+Error position:
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1064] [42000]: (conn=494) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:134)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:675)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:568)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleElement(SQLQueryJob.java:587)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:449)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:1061)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4568)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5155)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: (conn=494) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:289)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:187)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1347)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1286)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1205)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1129)
+	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:1003)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:1132)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:471)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:328)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:132)
+	... 13 more
+[ WARN] (DBeaver: Read data [-- 문제 42: 두 개의 결과 합치기 (중복 제거)
+-- 주제: 집합 연산자 UNION
+-- 문제: 'IT/테크' 카테고리에 속한 비디오의 제목과, '코딩 아카데미' 채널이 올린 비디오의 제목을 하나의 목록으로 합쳐서 보여주세요. 중복된 제목이 있다면 한 번만 표시합니다.
+SELECT title FROM videos WHERE category = 'IT/테크'l]) Error: 1064-42000: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'l' at line 4
+2025-09-26 14:45:47.114 - SQL Error [1064] [42000]: (conn=494) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'l' at line 4
+
+Error position: line: 3
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1064] [42000]: (conn=494) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'l' at line 4
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:134)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:675)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:568)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleElement(SQLQueryJob.java:587)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:449)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:1061)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4568)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5155)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: (conn=494) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'l' at line 4
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:289)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:187)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1347)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1286)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1205)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1129)
+	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:1003)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:1132)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:471)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:328)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:132)
+	... 13 more
+[ WARN] (DBeaver: Read data [SELECT title FROM videos WHERE creator_id = ()]) Error: 1064-42000: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+LIMIT 0, 300' at line 1
+2025-09-26 14:46:32.717 - SQL Error [1064] [42000]: (conn=494) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+LIMIT 0, 300' at line 1
+
+Error position:
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1064] [42000]: (conn=494) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+LIMIT 0, 300' at line 1
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:134)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:675)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:568)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleElement(SQLQueryJob.java:587)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:449)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:1061)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4568)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5155)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: (conn=494) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+LIMIT 0, 300' at line 1
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:289)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:187)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1347)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1286)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1205)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1129)
+	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:1003)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:1132)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:471)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:328)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:132)
+	... 13 more
+[ WARN] (DBeaver: Read data [SELECT 
+       creator_id
+     , avg_view_count
+  FROM (SELECT creator_id
+	       , AVG(view_count) avg_view_count
+	    FROM videos
+	   GROUP BY creator_id
+       )]) Error: 1064-42000: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 0, 300' at line 9
+2025-09-26 15:06:17.316 - SQL Error [1064] [42000]: (conn=494) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 0, 300' at line 9
+
+Error position: line: 8
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1064] [42000]: (conn=494) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 0, 300' at line 9
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:134)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:675)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:568)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleElement(SQLQueryJob.java:587)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:449)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:1061)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4568)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5155)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: (conn=494) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 0, 300' at line 9
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:289)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:187)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1347)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1286)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1205)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1129)
+	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:1003)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:1132)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:471)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:328)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:132)
+	... 13 more
+2025-09-26 15:27:39.462 - Execution context opened (swcamp; SQLEditor <11_dml.sql>; 10)
+2025-09-26 15:28:11.014 - Error while analyzing query text: -- (1) insert : 새로운 행을 추가
+INSERT 
+  INTO tbl_menu
+VALUES
+(
+  NULLtbl_categor
+)
+java.lang.IllegalStateException: Rows data was not resolved yet
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.getRowsDataContext(SQLQueryRowsSourceModel.java:52)
+	at org.jkiss.dbeaver.model.sql.semantics.model.dml.SQLQueryInsertModel.resolveValueRelations(SQLQueryInsertModel.java:114)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.resolveRelations(SQLQueryModel.java:73)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:155)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:1024)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:605)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:85)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-09-26 15:40:05.439 - Error while analyzing query text: -- 컬럼을 명시적으로 작성했을 경우 순서 변경이 가능하다.
+INSERT
+  INTO tbl_menu
+java.lang.IllegalStateException: Rows data was not resolved yet
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.getRowsDataContext(SQLQueryRowsSourceModel.java:52)
+	at org.jkiss.dbeaver.model.sql.semantics.model.dml.SQLQueryInsertModel.resolveValueRelations(SQLQueryInsertModel.java:114)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.resolveRelations(SQLQueryModel.java:73)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:155)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:1024)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:605)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:85)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-09-26 16:40:57.248 - Datasource mariaDB-19978f33f32-66686ec69c9e32ad not found in project General (/General/Scripts/Script-1.sql)
+2025-09-26 16:40:57.248 - Datasource mariaDB-19978f33f32-66686ec69c9e32ad not found in project General (/General/Scripts/Script-2.sql)
+2025-09-26 16:40:57.248 - Datasource mariaDB-19978f15696-75eefc892bd78a27 not found in project General (/General/Scripts/Script.sql)
+2025-09-26 16:41:02.563 - Execution context opened (swcamp; SQLEditor <Script-11.sql>; 11)
+2025-09-26 16:41:07.085 - Execution context opened (ott_flatform; SQLEditor <Script-11.sql>; 12)
+2025-09-26 16:41:07.097 - Execution context closed (swcamp, 11)
+2025-09-26 17:03:06.717 - Execution context closed (swcamp, 6)
+2025-09-26 17:03:06.750 - Execution context closed (swcamp, 7)
+2025-09-26 17:03:06.782 - Execution context closed (ott_flatform, 9)
+2025-09-26 17:03:06.815 - Execution context closed (swcamp, 10)
+2025-09-26 17:03:06.893 - Execution context closed (ott_flatform, 12)
+2025-09-26 17:03:15.339 - Execution context opened (swcamp; SQLEditor <Script-12.sql>; 13)

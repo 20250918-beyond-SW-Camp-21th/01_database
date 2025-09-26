@@ -1,0 +1,97 @@
+{
+	"folders": {},
+	"connections": {
+		"mariaDB-1997a2c1683-2babbf3db3d1aa06": {
+			"provider": "mysql",
+			"driver": "mariaDB",
+			"name": "swcamp",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"url": "jdbc:mariadb://localhost:3306/",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"provider-properties": {
+					"@dbeaver-show-all-dbs@": "true"
+				},
+				"auth-model": "native"
+			}
+		},
+		"mariaDB-1997a2cf492-81c9c3e80723e69": {
+			"provider": "mysql",
+			"driver": "mariaDB",
+			"name": "root",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"url": "jdbc:mariadb://localhost:3306/",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"provider-properties": {
+					"@dbeaver-show-all-dbs@": "true"
+				},
+				"auth-model": "native"
+			}
+		},
+		"mariaDB-1997a2d8a58-7b762d149e89b212": {
+			"provider": "mysql",
+			"driver": "mariaDB",
+			"name": "ott_flatform",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"url": "jdbc:mariadb://localhost:3306/",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"provider-properties": {
+					"@dbeaver-show-all-dbs@": "true"
+				},
+				"auth-model": "native"
+			},
+			"custom-properties": {
+				"resultset.maxrows": "300"
+			}
+		},
+		"mariaDB-1997e750c03-557674da2937459d": {
+			"provider": "mysql",
+			"driver": "mariaDB",
+			"name": "empdb",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"database": "empdb",
+				"url": "jdbc:mariadb://localhost:3306/empdb",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"provider-properties": {
+					"@dbeaver-show-all-dbs@": "true"
+				},
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": false,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": true,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800,
+			"auto-close-connections": true,
+			"close-connections-period": 14400
+		}
+	}
+}
