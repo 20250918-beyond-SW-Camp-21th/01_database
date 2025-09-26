@@ -1,0 +1,490 @@
+
+-- 문제 1: 모든 데이터 조회하기
+-- 주제: SELECT, FROM
+
+-- 문제: users 테이블에 있는 모든 사용자의 모든 정보를 조회하세요. 2025-09-25
+SELECT
+       *
+  FROM users;
+-- 2025-09-25 
+-- 문제 2: 특정 조건의 데이터 선택하기
+-- 주제: SELECT (특정 컬럼), WHERE
+
+-- 문제: '게임' 카테고리에 해당하는 모든 비디오의 제목과 조회수를 조회하세요.
+SELECT
+       title
+     , view_count
+  FROM videos
+  where category = '게임';
+-- 2025-09-25
+-- 문제 3: 숫자 비교 조건 사용하기
+-- 주제: WHERE (숫자 비교)
+
+-- 문제: 조회수(view_count)가 1,000,000 (백만) 회를 초과하는 모든 비디오의 creator_id, title, view_count를 조회하세요.
+SELECT
+       creator_id
+     , title
+     , view_count
+  FROM videos
+ WHERE VIEW_COUNT >= 1000000;
+-- 2025-09-25
+
+-- 문제 4: 결과 정렬하기
+-- 주제: ORDER BY
+
+-- 문제: users 테이블의 모든 사용자를 가입일(registration_date)이 최신인 순서대로 정렬하여 모든 정보를 조회하세요.
+
+SELECT
+       *
+  FROM USERS
+  ORDER BY registration_date DESC;
+
+-- 2025-09-25
+-- 문제 5: 여러 조건 동시에 만족시키기
+-- 주제: WHERE (복수 조건 AND)
+
+-- 문제: 'IT/테크' 카테고리의 비디오 중에서 조회수가 500,000 이상인 비디오의 제목, 카테고리, 조회수를 조회하세요.
+
+SELECT
+       title
+     , category
+     , view_count
+  FROM videos
+  WHERE category = 'IT/테크'
+    AND view_count >= 500000;
+-- , ' 빼먹음 2025-09-25
+
+-- 문제 6: 상위 N개 결과만 보기
+-- 주제: ORDER BY, LIMIT
+
+-- 문제: 전체 비디오 중에서 조회수가 가장 높은 상위 5개의 비디오 제목과 조회수를 조회하세요.
+SELECT
+       title
+     , view_count
+  FROM videos
+ ORDER BY view_count
+ LIMIT 5;
+
+
+
+-- 문제 7: 중복 없이 결과 보기
+-- 주제: DISTINCT
+
+-- 문제: videos 테이블에 존재하는 모든 비디오 카테고리의 종류를 중복 없이 조회하세요.
+SELECT
+       DISTINCT category
+  FROM videos;
+-- 2025-09-25
+
+-- 문제 8: 특정 패턴의 문자열 검색하기
+-- 주제: WHERE (패턴 검색 LIKE)
+
+-- 문제: 비디오 제목에 '리뷰'라는 단어가 포함된 모든 비디오의 제목을 조회하세요.
+SELECT
+       title
+  FROM VIDEOS
+ WHERE title LIKE '%리뷰%';
+-- 2025-09-25
+
+
+-- 문제 9: 여러 값 중 하나와 일치하는 데이터 검색
+-- 주제: WHERE (리스트 검색 IN)
+
+-- 문제: creators 테이블에서 creator_id가 1, 3, 5, 7인 크리에이터의 채널명과 creator_id를 조회하세요.
+SELECT
+       channel_name
+     , creator_id
+  FROM creators
+ WHERE creator_id IN (1,3,5,7);
+-- 2025-09-25
+
+-- 문제 10: 특정 범위의 데이터 검색하기
+-- 주제: WHERE (범위 검색 BETWEEN)
+
+-- 문제: 조회수가 500,000 이상 1,000,000 이하인 비디오의 제목과 조회수를 조회하세요.
+SELECT
+       title
+     , view_count
+  FROM videos
+ WHERE view_count BETWEEN 500000 AND 1000000;
+-- 2025-09-25
+
+
+-- 문제 11: NULL이 아닌 데이터만 확인하기
+-- 주제: WHERE (NULL 값 확인)
+
+-- 문제: 채널 설명(channel_description)이 비어있지 않은(NULL이 아닌) 크리에이터의 채널명을 조회하세요.
+SELECT
+       channel_name
+  FROM CREATORS
+ WHERE channel_description IS NOT NULL;
+-- 2025-09-25
+
+-- 문제 12: 복잡한 논리 조건 조합하기
+-- 주제: WHERE (논리 연산자 AND, OR 조합)
+
+-- 문제: 'IT/테크' 카테고리이거나 '교육' 카테고리이면서, 동시에 재생 시간이 1시간(3600초) 이상인 비디오의 
+-- **제목, 카테고리, 재생 시간(초)**을 조회하세요.
+SELECT
+       title
+     , category 
+     , duration_seconds
+  FROM videos
+ WHERE (category = 'IT/테크'
+    OR category = '교육')
+   AND DURATION_SECONDS >= 3600;
+-- 2025-09-25
+
+-- 문제 13: 여러 기준으로 정렬하기
+-- 주제: ORDER BY (다중 컬럼 정렬)
+
+-- 문제: 모든 비디오를 카테고리(오름차순) 순으로 먼저 정렬하고, 같은 카테고리 내에서는 조회수(내림차순)가 높은 순으로 정렬하여
+-- 비디오의 카테고리, 제목, 조회수를 조회하세요.
+
+SELECT 
+       category
+     , title
+     , view_count
+  FROM videos
+ ORDER BY CATEGORY ASC, view_count DESC;
+
+-- 2025-09-25
+
+
+
+
+-- 문제 14: 특정 패턴을 제외한 데이터 검색
+-- 주제: WHERE (NOT LIKE)
+
+-- 문제: 크리에이터의 채널 설명(channel_description)에 '튜토리얼'이라는 단어가 포함되지 않은 채널의 이름을 조회하세요.
+SELECT
+       channel_name
+  FROM creators
+ WHERE CHANNEL_DESCRIPTION NOT LIKE '%튜토리얼%';
+
+-- 2025-09-25 % 빼먹음
+
+
+
+
+
+-- 문제 15: 특정 범위를 벗어나는 데이터 검색
+-- 주제: WHERE (NOT BETWEEN)
+
+-- 문제: 재생 시간(duration_seconds)이 10분(600초)에서 30분(1800초) 사이가 아닌 비디오의 제목과 재생 시간을 조회하세요.
+
+SELECT 
+       TITLE
+     , DURATION_SECONDS
+  FROM VIDEOS
+ WHERE DURATION_SECONDS NOT BETWEEN 600 AND 1800;
+-- 2025-09-25
+
+
+-- 문제 16: 더 복잡한 논리 조건 조합하기
+-- 주제: WHERE (복합 논리 조건 (), AND, OR)
+
+-- 문제: '여행' 카테고리 비디오 중 조회수가 500,000 이상인 경우 또는 '음악' 카테고리 비디오 중 
+-- 재생 시간이 5분(300초) 이하인 경우를 모두 조회하세요. (결과에는 제목, 카테고리, 조회수, 재생 시간을 포함하세요.)
+SELECT
+       title
+     , category
+     , VIEW_Count
+     , duration_seconds
+  FROM videos
+ WHERE (category = '여행' AND VIEW_COUNT >=500000)
+    OR (CATEGORY = '음악' AND DURATION_SECONDS <=300);
+-- 2025-09-25
+
+ 
+
+-- 문제 17: 결과 구간 선택하기 (페이지네이션)
+-- 주제: LIMIT with OFFSET
+
+-- 문제: 모든 사용자를 user_id 순으로 정렬했을 때, 11번째부터 20번째까지(10건)의 사용자 이름과 이메일을 조회하세요.
+SELECT
+       username
+     , email
+  FROM users
+ ORDER BY user_id
+ LIMIT 10,10;
+-- 문제 18: 특정 목록을 제외한 데이터 검색
+-- 주제: WHERE (부정 리스트 검색 NOT IN)
+
+-- 문제: 'IT/테크', '게임', '교육' 카테고리를 제외한 나머지 카테고리의 비디오 제목과 카테고리를 조회하세요.
+SELECT
+       TITLE
+     , CATEGORY 
+  FROM videos
+ WHERE category NOT IN ('IT/테크','게임','교육');
+-- 2025-09-25
+-- NOT LIKE 라고 작성
+-- 문제 19: 특정 위치의 글자 수로 검색하기
+-- 주제: WHERE (LIKE와 단일 문자 와일드카드 _)
+
+-- 문제: users 테이블에서 사용자 이름(username)이 '겜'으로 시작하고 총 세 글자인 사용자를 조회하세요.
+SELECT
+       username
+  FROM users
+ WHERE username LIKE '겜__';
+-- 2025-09-25
+
+-- 문제 20: 기본기 종합 복습
+-- 주제: WHERE, ORDER BY, LIMIT 종합
+
+-- 문제: 국적이 '대한민국' 또는 '미국'인 사용자 중, 사용자 이름(username)의 가나다순으로 정렬하여 
+-- 상위 5명만 user_id, username, country를 조회하세요.
+SELECT
+       user_id
+     , username
+     , country
+  FROM users
+ WHERE country IN ('대한민국','미국')
+ ORDER BY username ASC
+ LIMIT 5;
+
+-- 문제 21: 정확한 글자 수로 패턴 검색하기
+-- 주제: WHERE (LIKE와 단일 문자 와일드카드 _)
+
+-- 문제: users 테이블에서 사용자 이름(username)이 '테스트사용자' 
+-- 다음에 정확히 한 글자가 더 붙는 사용자(예: 테스트사용자1, 테스트사용자2)를 모두 조회하세요.
+SELECT
+       username
+  FROM users
+ WHERE username LIKE '테스트사용자_'
+-- 2025-09-25
+-- 문제 22: 여러 값을 동시에 제외하기
+-- 주제: WHERE (부정 리스트 검색 NOT IN)
+-- 
+-- 문제: 국적이 '대한민국', '미국', '일본'이 아닌 사용자의 사용자명과 국적을 조회하세요.
+
+ SELECT
+       username
+     , country
+  FROM users
+ WHERE country NOT IN ('대한민국','미국','일본');
+
+-- 문제 23: 값이 없는(NULL) 데이터 검색하기
+-- 주제: WHERE (NULL 값 검색 IS NULL)
+-- 
+-- 문제: creators 테이블에서 채널 설명(channel_description)이 등록되지 않은 (값이 NULL인) 크리에이터가 있는지 찾아보세요.
+
+SELECT
+       *
+  FROM creators
+ WHERE Channel_description IS NULL 
+-- 2025-09-25
+-- 문제24: 여러 종류의 조건문 종합하기
+-- 주제: WHERE (종합 논리 조건)
+-- 
+-- 문제: users 테이블에서, 국적이 '영국'이거나 '프랑스'이면서, 동시에 사용자 이름에 '사용자'라는 단어가 포함되지 않는 사용자를 조회하세요.
+
+ SELECT
+       username
+  FROM users
+ WHERE country IN ('영국','프랑스')
+   AND username NOT LIKE '%사용자%';
+
+-- -- 문제25: 두 테이블의 정보 합치기 (기초)
+-- 주제: INNER JOIN
+
+-- 문제: videos 테이블과 creators 테이블을 JOIN하여, 모든 비디오의 제목과 해당 비디오를 올린 크리에이터의 채널명을 함께 조회하세요.
+
+ SELECT
+        a.TITLE
+      , b.CHANNEL_NAME 
+   FROM videos a
+   JOIN creators b ON a.CREATOR_ID = b.CREATOR_ID;
+ 
+-- 문제26: JOIN 결과에 조건 추가하기
+-- 주제: INNER JOIN + WHERE
+
+-- 문제: JOIN을 사용하여 '맛있는 요리' 채널이 올린 모든 비디오의 제목과 조회수를 조회하세요.
+
+ SELECT
+       a.TITLE
+     , a.view_count
+  FROM VIDEOS a
+  JOIN creators b ON a.CREATOR_ID = b.CREATOR_ID
+ WHERE b.CHANNEL_NAME = '맛있는 요리';
+-- 2025-09-25
+-- 문제 27: 3개 테이블 연결하기
+-- 주제: 3개 테이블 INNER JOIN
+
+-- 문제: watch_histories 테이블을 중심으로, users 테이블과 videos 테이블을 JOIN하여, 
+-- 어떤 사용자(username)가 어떤 비디오(title)를 시청했는지 조회하세요. (결과가 많을 수 있으니 상위 10개만 조회)
+
+ SELECT
+        b.username
+      , c.title
+   FROM watch_histories a
+   JOIN users b ON a.USER_ID = b.USER_ID 
+   JOIN videos c ON a.video_id = c.video_id
+  LIMIT 10 ;
+ 
+ -- 2025-09-25
+-- LIMIT 뒤에 DESC를 붙임
+ 
+-- 문제 28: 3개 테이블 JOIN 결과에 조건과 정렬 추가하기
+-- 주제: 3개 테이블 INNER JOIN + WHERE + ORDER BY
+-- 문제: '기술전문가'라는 username을 가진 사용자가 시청한 모든 비디오의 제목과 카테고리,
+--      그리고 **언제 시청했는지(watch_datetime)**를 조회하세요. 
+--      결과는 시청한 시간이 최신인 순서로 정렬하세요.
+SELECT
+       c.TITLE 
+     , c.category
+     , b.WATCH_DATETIME 
+  FROM users a
+  JOIN watch_histories b ON a.user_id = b.USER_ID 
+  JOIN videos c ON b.video_id = c.video_id
+ WHERE a.username = '기술전문가'
+ ORDER BY b.WATCH_DATETIME DESC;
+
+-- users, watch_histories, videos
+-- 2025-09-25 DESC를 ASC로 씀
+
+-- 문제 29: 4개 테이블 연결하기
+-- 주제: 4개 테이블 INNER JOIN
+
+-- 문제: '겜프로'(username)라는 사용자가 구독한 채널들이 올린 모든 비디오의 제목과 그 채널명을 조회하세요.
+
+SELECT 
+       d.title
+     , c.channel_name
+  FROM users a
+ INNER JOIN subscriptions b ON a.USER_ID = b.USER_ID 
+ INNER JOIN creators c ON b.CREATOR_ID = c.CREATOR_ID 
+ INNER JOIN videos d ON c.CREATOR_ID  = d.CREATOR_ID
+ WHERE a.USERNAME = '겜프로';
+  
+-- 2025-09-25
+-- 문제 30: 한 번도 특정 행동을 하지 않은 데이터 찾기
+-- 주제: LEFT JOIN (외부 조인)
+-- 문제: 아직 '좋아요'를 한 번도 누르지 않은 사용자의 username을 모두 조회하세요.
+SELECT 
+       *
+  FROM USERS a
+  JOIN video_likes b ON a.user_id = b.user_id
+ WHERE b.LIKE_ID = NULL;
+
+-- 2025-09-25 left join 이 아닌 join을 함(모든 사용자 조회)
+
+-- 문제 31: 특정 데이터가 없는 항목 찾기
+-- 주제: LEFT JOIN
+
+-- 문제: 아직 비디오를 하나도 올리지 않은 크리에이터의 채널명을 조회하세요.
+SELECT
+       a.CHANNEL_NAME
+     , b.title
+  FROM CREATORS a
+ LEFT JOIN videos b ON a.creator_id = b.creator_id
+ WHERE b.video_id IS NULL; 
+
+
+-- 2025-09-25
+
+-- 문제 32: 시청 기록을 통해 사용자 찾기
+-- 주제: 3개 테이블 JOIN + WHERE LIKE
+-- users videos watch histories
+-- 문제: 비디오 제목에 '레시피'라는 단어가 포함된 비디오를 시청한 모든 사용자의 username을 중복 없이 조회하세요.
+SELECT
+       DISTINCT a.username
+  FROM users a
+ INNER JOIN watch_histories b ON a.user_id = b.USER_ID 
+ INNER  JOIN videos c ON b.video_id = c.VIDEO_ID 
+ WHERE c.title LIKE '%레시피%' 
+
+-- 문제 33: 한쪽 테이블의 모든 데이터 보여주기
+-- 주제: RIGHT JOIN
+-- 문제: 모든 비디오의 제목을 보여주고, 해당 비디오에 '좋아요'를 누른 사용자가 있다면 그 username도 함께 보여주세요.
+-- '좋아요'가 없는 비디오도 목록에 포함되어야 합니다.
+-- videos (title) video_likes users
+ 
+ SELECT
+        c.title
+      , a.username
+   FROM users a
+   JOIN video_likes b ON a.user_id = b.USER_ID 
+  RIGHT JOIN videos c ON b.VIDEO_ID  = c.video_id;
+ 
+-- 문제 34: 특정 카테고리 중 활동이 없는 데이터 찾기
+-- 주제: LEFT JOIN + WHERE IN
+-- 문제: 'IT/테크' 또는 '교육' 카테고리 비디오 중에서, '좋아요'를 받지 못한 비디오의 제목과 카테고리를 조회하세요.
+-- videos category video_likes 
+ 
+SELECT
+       a.TITLE
+     , a.category
+  FROM videos a
+  JOIN video_likes b ON a.video_id = b.video_id
+ WHERE a.category IN ('IT/테크','교육')
+   AND b.LIKE_ID IS NULL
+  -- 2025-09-25
+-- 문제 35: JOIN 종합 문제
+-- 주제: 4개 테이블 JOIN + WHERE + ORDER BY
+
+-- 문제: '대한민국' 국적의 사용자가 '좋아요'를 누른 비디오의 제목과, 그 비디오를 만든 크리에이터의 채널명을 조회하세요. 
+-- 결과를 채널명 가나다순으로 정렬하세요.
+-- users country videos video_likes creators order by asc
+SELECT 
+       c.TITLE
+     , d.channel_name
+  FROM users a 
+  JOIN video_likes b ON a.user_id = b.USER_ID 
+  JOIN videos c ON b.video_ID = c.video_ID
+  JOIN creators d ON c.creator_id = d.CREATOR_id
+ WHERE a.country = '대한민국'
+ ORDER BY d.channel_name ASC;
+  
+
+-- 문제 36: 데이터 그룹으로 묶고 개수 세기
+-- 주제: GROUP BY, COUNT()
+-- 문제: 각 비디오 카테고리별로 비디오가 총 몇 개씩 있는지 개수를 세어보세요.
+-- videos 
+SELECT
+       category
+     , COUNT(a.video_id)
+  FROM videos a
+ GROUP BY a.category;
+
+-- 문제 37: 그룹별 합계와 평균 계산하기 (JOIN과 함께)
+-- 주제: GROUP BY, SUM(), AVG() with JOIN
+-- 문제: 각 크리에이터 채널별로, 올린 비디오의 총 조회수 합계와 평균 조회수를 계산하세요. 결과를 총 조회수 합계가 높은 순으로 정렬하세요.
+-- creators videos sum view_count avg view_count order by sum view_count
+
+
+SELECT
+       a.channel_name
+     , SUM(b.view_count) total_views
+     , AVG(b.view_count) avg_views
+  FROM creators a
+  JOIN videos b ON  a.creator_id = b.video_id
+ GROUP BY a.channel_name
+ ORDER BY total_views DESC;
+-- 문제 38: 그룹화된 결과에 조건 적용하기
+-- 주제: GROUP BY, HAVING
+
+-- 문제: 비디오를 3개 이상 올린 크리에이터에 대해서만, 각 크리에이터별 creator_id와 올린 비디오의 총 개수를 조회하세요.
+-- creators videos >=3 
+SELECT 
+       creator_id
+     , count(*) video_count
+  FROM videos
+ GROUP BY CREATOR_ID
+ HAVING video_count >=3
+ -- 2025-09-25
+  
+-- 문제 39: JOIN과 GROUP BY, HAVING 
+-- 주제: JOIN, GROUP BY, HAVING
+
+-- 문제: '대한민국' 국적을 가진 크리에이터 중에서,
+-- 올린 비디오의 평균 조회수가 500,000 이상인 크리에이터의 채널명과 평균 조회수를 조회하세요.
+-- users videos avg view_count>= 500000 creators channel_name avg view_count
+ SELECT
+        b.CHANNEL_NAME
+      , FLOOR(AVG(c.view_count)) avg_viewcount
+   FROM users a
+   JOIN creators b ON a.user_id = b.USER_ID 
+   JOIN videos c ON b.creator_id = c.CREATOR_ID
+  GROUP BY a.country = '대한민국'
+  HAVING avg_viewcount >=500000;
