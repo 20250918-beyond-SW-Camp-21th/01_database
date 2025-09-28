@@ -1,0 +1,11 @@
+-- 문제 39: JOIN과 GROUP BY, HAVING 
+-- 주제: JOIN, GROUP BY, HAVING
+-- 문제: '대한민국' 국적을 가진 크리에이터 중에서, 
+-- 올린 비디오의 평균 조회수가 500,000 이상인 
+-- 크리에이터의 채널명과 평균 조회수를 조회하세요.
+-- >> users, creators, videos
+
+select
+*
+from users;
+
