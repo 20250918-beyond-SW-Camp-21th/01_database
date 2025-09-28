@@ -453,28 +453,37 @@ SELECT
 -- 문제 45: SELECT 절에서 서브쿼리 사용하기
 -- 주제: 서브쿼리 (스칼라 서브쿼리)
 -- 문제: creators 테이블의 각 채널에 대해, 채널명과 해당 채널이 올린 비디오의 총 개수를 함께 조회하세요. (JOIN을 사용하지 마세요.)
-SELECT 
-	   channel_name
-	 , (SELECT count(*)
+SELECT
+	   a.channel_name
+    ,  (SELECT count(*)
 	      FROM videos b
-	     WHERE b.creator_id = a.creator_id) video_count
-  FROM creators a;  
+	     WHERE a.creator_id = b.creator_id )
+  FROM
+       creators a; 
 
 -- 문제 46: 특정 조건을 만족하는 데이터가 존재하는지 확인하기
 -- 주제: 서브쿼리 (EXISTS)
 -- 문제: '여행' 카테고리의 비디오에 '좋아요'를 누른 기록이 한 번이라도 있는 사용자의 username을 모두 조회하세요.
 SELECT username 
 FROM users a
-WHERE EXISTS(SELECT 1 FROM video_likes b WHERE )
+WHERE EXISTS(SELECT 1 
+			   FROM video_likes b 
+			   JOIN videos c ON b.video_id = c.video_id 
+			   WHERE b.user_id = a.user_id 
+			     AND c.category = '여행');
 
 -- 문제 47: 특정 조건을 만족하는 데이터가 없는지 확인하기
 -- 주제: 서브쿼리 (NOT EXISTS)
 -- 문제: 채널 설명에 '리뷰'라는 단어가 포함된 크리에이터가 올린 비디오에 대해, '좋아요'를 한 번도 받지 못한 비디오의 제목을 조회하세요.
 
 SELECT
-	   video_name 
-  FROM videos   
-WHERE NOT EXISTS(SELECT 1 FROM video_likes WHERE )
+	   a.title
+  FROM
+	   videos a
+WHERE
+	   a.creator_id IN (SELECT creator_id
+	                      FROM creators
+						 WHERE channel_description LIKE '%리뷰%')AND NOT EXISTS (SELECT 1 FROM video_likes b WHERE b.video_id = a.video_id);
 
 -- 문제 48: 특정 그룹의 통계를 조건으로 사용하기
 -- 주제: WHERE 절 서브쿼리
@@ -492,24 +501,48 @@ WHERE duration_seconds > (SELECT avg(duration_seconds)
 -- 문제 49: 가장 뛰어난 그룹 찾기
 -- 주제: FROM 절 서브쿼리 (인라인 뷰)
 -- 문제: 평균 조회수가 가장 높은 카테고리는 무엇이며, 그 평균 조회수는 얼마인지 조회하세요.
-SELECT 
-	    category
-	  , avg
-   FROM (SELECT avg(view_count) avg
-  		   FROM videos
-  		 ) v;
- ORDER BY view_count DESC
-  		 
+	SELECT
+	       a.category
+	     , a.avg_views
+	  FROM (SELECT category
+		         , AVG(view_count) avg_views
+		      FROM videos
+		     GROUP BY category) a
+	 ORDER BY avg_views DESC;
 
 -- 문제 50: 다른 테이블의 정보를 이용해 필터링하기
 -- 주제: WHERE IN과 JOIN을 포함한 서브쿼리
 -- 문제: 'IT/테크' 카테고리의 비디오를 하나라도 시청한 기록이 있는 모든 사용자의 username을 조회하세요.
+-- username 
+SELECT username 
+  FROM users
+ WHERE user_id IN (SELECT DISTINCT b.user_id FROM watch_histories b JOIN videos a ON b.video_id  = a.video_id  WHERE a.category = 'IT/테크');
 
 
 -- 문제 51: 각 행에 대한 연관 정보 조회하기
 -- 주제: SELECT 절의 스칼라 상관 서브쿼리
 -- 문제: creators 테이블의 각 채널에 대해, 채널명과 함께 해당 채널의 가장 높은 조회수를 기록한 비디오의 제목을 조회하세요.
- 
+channel_name, title
+
+SELECT c.channel_name
+     , (SELECT a.title
+	      FROM videos a
+	     WHERE a.creator_id = c.creator_id
+	     ORDER BY a.view_count DESC
+	     LIMIT 1) max_title
+  FROM creators c;
 -- 문제 52: 임시 테이블을 만들어 쿼리 가독성 높이기
 -- 주제: WITH 절 (공통 테이블 표현식, Common Table Expression)
 -- 문제: 조회수가 1,000,000 (백만)을 초과하는 '인기 비디오'들을 먼저 정의한 후, 이 '인기 비디오'들을 올린 크리에이터들의 채널명을 중복 없이 조회하세요.
+WITH popular_video AS (
+	SELECT a.title
+		,  a.creator_id
+		,  b.channel_name
+		FROM videos a
+		JOIN creators b ON a.creator_id = b.creator_id  
+		WHERE a.view_count > 1000000)
+
+SELECT
+       DISTINCT popular_video.channel_name
+FROM popular_video;
+
