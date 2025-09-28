@@ -28,7 +28,7 @@ select
 	   a.emp_name
      , b.dept_title
   from employee a
-  left join department b on a.dept_code = b.dept_id;  
+  left join department b on a.dept_code = b.dept_id; 
 
 -- 3. RIGHT[outer] join
 -- 오르쪽 테이블의 모든 레코드와 왼쪽 테이블에서 일치하는 레코드를 반홤
