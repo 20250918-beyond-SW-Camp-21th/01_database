@@ -1,125 +1,224 @@
--- 14. ddl
--- 데이터 정의언어, 데이터베이스의 스키마를 정의하거나 수정
+-- 15. constraints(제약조건)
 
--- (1) create: 테이블 생성
-CREATE TABLE IF NOT EXISTS tb(
-  pk INT PRIMARY KEY,  -- PRIMARY KEY> 행을 식별할 수 있는 컬럼
-  fk INT,
-  col1 VARCHAR(255),
-  CHECK(col1 IN ('Y','N'))
+-- (1) not null : null 값을 허용하지 않음.
+CREATE TABLE IF NOT EXISTS user_notnull (
+  user_no INT NOT NULL,           -- 컬럼 레벨의 제약조건 
+  user_id VARCHAR(255) NOT NULL,
+  user_pwd VARCHAR(255) NOT NULL,
+  user_name VARCHAR(255) NOT NULL,
+  gender VARCHAR(3),
+  phone VARCHAR(255) NOT NULL,
+  email VARCHAR(255)
 );
 
--- 테이블의 구조 확인
-DESCRIBE tb;
-DESC tb;
-
-INSERT
-  INTO tb
+INSERT 
+  INTO user_notnull
 VALUES
-(
-  
-  2
-, 10
-, 'Y'
-);
+(1, 'user01', 'pass01', '홍길동', '남', '010-1234-5678', 'hong@gmail.com');
 
--- auto increment 적용한 테이블 생성
-CREATE TABLE IF NOT EXISTS tb2(
-  pk INT AUTO_INCREMENT PRIMARY KEY,
-  fk INT,
-  col1 VARCHAR(255),
-  CHECK(col1 IN ('Y', 'N'))
-);
-DESCRIBE tb2;
-DESC tb2;
-
--- insert 테스트
-INSERT
-  INTO tb2
+INSERT 
+  INTO user_notnull
 VALUES
-(
-  NULL
-, 10
-, 'Y'
-)
+(2, null, 'pass01', '홍길동', '남', '010-1234-5678', 'hong@gmail.com');
 
 
--- (2) alter : 테이블에 추가/변경/수정/삭제
--- 2-1. 열추가
-ALTER TABLE tb2 
-  ADD col2 INT NOT NULL;
-
-DESC tb2;
-
--- 2-2. 열 이름 및 데이터 형식 변경
-ALTER TABLE tb2
-CHANGE COLUMN fk change_fk INT;
-
-
-ALTER TABLE tb2
-CHANGE COLUMN change_fk change_fk INT NOT NULL;
-DESC tb2;
-
--- 2-3. 컬럼 삭제
-ALTER TABLE tb2
- DROP COLUMN col2;
-
--- 2-4. 제약 조건 추가 및 삭제
-ALTER TABLE tb2 
- DROP PRIMARY KEY;
-
--- auto_increment설정이 있을 경우 pk 제약조건 제거 불가
--- auto_increment 부터 제거(컬럼 정의 수정)
-ALTER TABLE tb2 
-MODIFY pk INT;
-SELECT * FROM tb2;
-DESC tb2;
-
-ALTER TABLE tb2 
- DROP PRIMARY KEY;
-
-
- -- 제약 조건 다시 추가 수정
-ALTER TABLE tb2
-  ADD PRIMARY KEY(pk);
- 
- DESC tb2;
-
--- 2-5. 컬럼 다중 추가
-ALTER TABLE tb2 
-  ADD col2 DATE NOT NULL,
-  ADD col4 TINYINT NOT NULL;
-
-INSERT
-  INTO tb2
-VALUES
-(
-  7
-, 10
-, 'Y'
+-- (2) unique : 중복값 허가하지 않음
+CREATE TABLE IF NOT EXISTS user_unique (
+  user_no INT NOT NULL UNIQUE, -- 컬럼 레벨의 제약조건 
+  user_id VARCHAR(255) NOT NULL,
+  user_pwd VARCHAR(255) NOT NULL,
+  user_name VARCHAR(255) NOT NULL,
+  gender VARCHAR(3),
+  phone VARCHAR(255) NOT NULL,
+  email VARCHAR(255)
 );
-COMMIT;
-ALTER TABLE tb2
- DROP COLUMN col4;
-set autocommit = 1;
-SHOW VARIABLES LIKE 'autocommit';
+DESC user_unique;
+
+INSERT 
+  INTO user_unique
+VALUES
+(1, 'user01', 'pass01', '홍길동', '남', '010-1234-5678', 'hong@gmail.com');
+
+INSERT 
+  INTO user_unique
+VALUES
+(1, 'user01', 'pass01', '홍길동', '남', '010-1234-5678', 'hong@gmail.com');
+
+CREATE TABLE IF NOT EXISTS user_unique2 (
+  user_no INT NOT NULL,
+  user_id VARCHAR(255) NOT NULL,
+  user_pwd VARCHAR(255) NOT NULL,
+  user_name VARCHAR(255) NOT NULL,
+  gender VARCHAR(3),
+  phone VARCHAR(255) NOT NULL,
+  email VARCHAR(255),
+  UNIQUE(user_no)  -- 테이블 레벨의 제약조건
+);
+
+DESC user_unique2;
+
+INSERT 
+  INTO user_unique2
+VALUES
+(1, 'user01', 'pass01', '홍길동', '남', '010-1234-5678', 'hong@gmail.com');
+
+-- (3) primary key : 테이블의 식별자 역할(한 행을 구분)
+-- not null + unique
+-- 한 테이블 당 하나만 설정 가능
+CREATE TABLE IF NOT EXISTS user_primary (
+  user_no INT ,
+  user_id VARCHAR(255) NOT NULL,
+  user_pwd VARCHAR(255) NOT NULL,
+  user_name VARCHAR(255) NOT NULL,
+  gender VARCHAR(3),
+  phone VARCHAR(255) NOT NULL,
+  email VARCHAR(255),
+  PRIMARY KEY(user_no) -- 테이블 레벨에 제약조건 
+);
+INSERT 
+  INTO user_primary
+VALUES
+(1, 'user01', 'pass01', '홍길동', '남', '010-1234-5678', 'hong@gmail.com');
+
+INSERT 
+  INTO user_primary
+VALUES
+(null, 'user01', 'pass01', '홍길동', '남', '010-1234-5678', 'hong@gmail.com');
+
+-- (4) foreign key: 참조 제약 조건 (참조 무결성 위배하지 않도록)
+CREATE TABLE IF NOT EXISTS user_grade (
+  grade_code INT UNIQUE,
+  grade_name VARCHAR(255) NOT NULL
+);
+
+INSERT INTO user_grade VALUES 
+(10, '일반회원'),
+(20, '우수회원'),
+(30, '특별회원');
+
+SELECT * FROM user_grade;
 
 
-ALTER TABLE tb2 
-  ADD col2 DATE NOT NULL;
-ROLLBACK;
-SELECT * FROM tb2;
+CREATE TABLE IF NOT EXISTS user_foreignkey (
+  user_no INT ,
+  user_id VARCHAR(255) NOT NULL,
+  user_pwd VARCHAR(255) NOT NULL,
+  user_name VARCHAR(255) NOT NULL,
+  gender VARCHAR(3),
+  phone VARCHAR(255) NOT NULL,
+  email VARCHAR(255),
+  grade_code INT,
+  PRIMARY KEY(user_no), -- 테이블 레벨에 제약조건 
+  FOREIGN KEY (grade_code) REFERENCES user_grade(grade_code)
+);
+
+DESC user_foreignkey;
+INSERT 
+  INTO user_foreignkey
+VALUES
+(1, 'user01', 'pass01', '홍길동', '남', '010-1234-5678', 'hong@gmail.com', 10);
+
+INSERT 
+  INTO user_foreignkey
+VALUES
+(2, 'user02', 'pass01', '홍길동', '남', '010-1234-5678', 'hong@gmail.com', 40);
+
+INSERT 
+  INTO user_foreignkey
+VALUES
+(2, 'user02', 'pass01', '홍길동', '남', '010-1234-5678', 'hong@gmail.com', null);
 
 
--- (3) drop : 테이블 삭제 구문
-DROP TABLE IF EXISTS tb2;
-DROP TABLE IF EXISTS tb, tb2;
+DELETE 
+  FROM user_grade 
+ WHERE grade_code = 10;
+-- 삭제롤 변경
+CREATE TABLE IF NOT EXISTS user_foreignkey3 (
+  user_no INT ,
+  user_id VARCHAR(255) NOT NULL,
+  user_pwd VARCHAR(255) NOT NULL,
+  user_name VARCHAR(255) NOT NULL,
+  gender VARCHAR(3),
+  phone VARCHAR(255) NOT NULL,
+  email VARCHAR(255),
+  grade_code INT,
+  PRIMARY KEY(user_no), -- 테이블 레벨에 제약조건 
+  FOREIGN KEY (grade_code) REFERENCES user_grade(grade_code)
+  -- 삭제를 생략 시 삭제 불가
+--   ON UPDATE SET NULL ON DELETE SET NULL
+  -- 수정 및 삭제 시 NULL값으로 변경
+  ON UPDATE CASCADE ON DELETE CASCADE
+  -- 수정 및 삭제 시 함께 삭제
+);
 
--- (4) truncate : 논리적으로는 delete 구문과 차이가 없어보이지만
--- drop 이후 테이블을 재생성해주는 구문이다.
--- delete from 테이블로 모든 행을 제거하는 것보다 성능적으로 빠름
-SELECT * FROM tb;
-COMMIT;
-ROLLBACK;
-DELETE FROM tb;
-TRUNCATE tb;
+
+INSERT 
+  INTO user_foreignkey2
+VALUES
+(1, 'user01', 'pass01', '홍길동', '남', '010-1234-5678', 'hong@gmail.com', 10);
+
+INSERT -- fk 제약조건 
+  INTO user_foreignkey2
+VALUES
+(2, 'user01', 'pass01', '홍길동', '남', '010-1234-5678', 'hong@gmail.com', 40);
+
+INSERT 
+  INTO user_foreignkey2
+VALUES
+(2, 'user01', 'pass01', '홍길동', '남', '010-1234-5678', 'hong@gmail.com', null);
+
+SELECT * FROM user_foreignkey2;
+UPDATE user_foreignkey SET grade_code = 20;
+DELETE 
+  FROM user_grade
+ WHERE grade_code = 10;
+
+
+INSERT 
+  INTO user_foreignkey3
+VALUES
+(1, 'user01', 'pass01', '홍길동', '남', '010-1234-5678', 'hong@gmail.com', 30);
+SELECT * FROM user_foreignkey3;
+
+DELETE 
+  FROM user_grade
+ WHERE grade_code = 30;
+
+-- (5) check 제약 조건
+CREATE TABLE IF NOT EXISTS user_check (
+  user_no INT AUTO_INCREMENT PRIMARY KEY,
+  user_name VARCHAR(255) NOT NULL,
+  gender VARCHAR(3) CHECK (gender IN ('남', '여')),
+  age INT CHECK(age >= 19)
+);
+
+
+INSERT INTO user_check VALUES (NULL, '홍길동', '남', 20);
+INSERT INTO user_check VALUES (NULL, '홍길동', '남', 16); -- age check제약조건 위배
+INSERT INTO user_check VALUES (NULL, '홍길동', '남자', 19); -- gender check 제약조건 위배
+SELECT * FROM user_check;
+
+-- (6) default : 컬럼에 null 값 대신 기본값 적용가능
+CREATE TABLE IF NOT EXISTS tbl_country (
+  country_code INT AUTO_INCREMENT PRIMARY KEY,
+  country_name VARCHAR(255) DEFAULT '한국',
+  population VARCHAR(255) DEFAULT '0명',
+  add_day DATE DEFAULT (CURRENT_DATE),
+  add_time DATETIME DEFAULT (CURRENT_TIME)
+);
+
+INSERT INTO tbl_country VALUES (NULL, DEFAULT, DEFAULT, DEFAULT, DEFAULT);
+SELECT * FROM tbl_country;
+
+
+
+
+
+
+
+
+
+
+
+
+
