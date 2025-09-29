@@ -56,4 +56,5 @@ resultset.presentation.active=spreadsheet
 sample.database.canceled=true
 sql.format.keywordCase=UPPER
 tipOfTheDayInitializer.notFirstRun=true
-ui.auto.update.check.time=1758843647899
+ui.auto.update.check.time=1759103997854
+ui.show.tip.of.the.day.on.startup=false
