@@ -163,7 +163,8 @@ SELECT
       , COUNT(*)
     FROM creators a
     JOIN videos b ON a.creator_id = b.creator_id 
-    GROUP BY a.channel_name 
+--     GROUP BY a.channel_name 
+    GROUP BY creator_id 
     HAVING COUNT(b.video_id) >= 3;
 
 
@@ -178,7 +179,8 @@ SELECT
     JOIN users b ON a.user_id = b.user_id 
     JOIN videos c ON b.user_id = c.creator_id 
   WHERE b.country = '대한민국'
-    GROUP BY a.creator_id
+--     GROUP BY a.creator_id
+    GROUP BY a.channel_name 
 --     HAVING b.country = '대한민국'
     HAVING AVG(c.view_count) >= 500000;
     
