@@ -64,7 +64,8 @@ SELECT
 -- ===================================
 -- 다중행 서브쿼리
 -- 서브쿼리의 실행 결과가 여러개의 행으로 나오는 경우이다.
--- 다중행 연산자는 `(IN, NOT IN, ANY, ALL)` 와 함께 사용해야 한다. => 여러 결과가 나오므로 SEARCH한다.
+-- 다중행 연산자는 `(IN, NOT IN, ANY, ALL)` 와 함께 사용해야 한다.
+-- => 여러 결과가 나오므로 SEARCH한다.
 
 -- 모든 식사류 메뉴를 조회해주세요.
 -- '식사류'에 해당하는 카테고리 코드를 서브쿼리로 먼저 조회한 후, 
@@ -110,7 +111,8 @@ SELECT
 	   menu_name
 	 , menu_price 
   FROM tbl_menu
- WHERE max(menu_price);
+ WHERE max(menu_price)
+ GROUP BY menu_code;
 
 SELECT
 	   *
@@ -136,10 +138,13 @@ SELECT category_name
  			    FROM tbl_menu b
  			   WHERE b.category_code = a.category_code );
 -- -------------------------------------------------------------
-SELECT DISTINCT category_name
+SELECT DISTINCT category_name -- > WRONG CODE!!!
   FROM tbl_category
  WHERE ref_category_code IS NOT NULL; -- <- 이 코드랑 위 exist코드랑 뭔 차이임]
 -- 퓨전이 있고 없고 차이 -> 뭘까
+-- > 뭘까에 대한 답: 퓨전은 메뉴 테이블에 존재하지 않는다. 
+-- > 메뉴 테이블에 존재하는 카페고리 코드와 카테고리테이블의 코드와 일치하는 녀석
+-- > 들만 데려온 것 -> 내가 쓴 코드는 틀렸다.
  
  
  -- =============================
@@ -159,6 +164,7 @@ SELECT
   FROM tbl_menu
  GROUP BY category_code
  ORDER BY menu_price;
+
 
 -- 이해 x
 -- 동일한 카테고리 내에서 max값만 찾아주는건가?
@@ -244,7 +250,7 @@ SELECT
 -- 인라인 뷰 예시 아래 두 개는 동일한 의미를 담는다.
 SELECT count(*) count
   FROM tbl_menu
- GROUP BY category_code 
+ GROUP BY category_code;
  
 SELECT
 	   max(count)
