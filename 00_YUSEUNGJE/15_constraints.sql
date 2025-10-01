@@ -16,7 +16,7 @@ INSERT
 VALUES
 (1, 'user01', 'pass01', '홍길동', '남', '010-1234-5678', 'hong@gmail.com');
 
-INSERT 
+INSERT 15_constraints.sql
   INTO user_notnull
 VALUES
 (2, null, 'pass01', '홍길동', '남', '010-1234-5678', 'hong@gmail.com');
